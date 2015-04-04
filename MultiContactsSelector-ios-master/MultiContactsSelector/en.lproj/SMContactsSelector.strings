@@ -1,0 +1,13 @@
+/* 
+  SMContactSelector.strings
+  MultiContactsSelector
+
+  Created by Andy Geers on 20/07/2013.
+
+*/
+
+"cancel" = "Cancel";
+"done" = "Done";
+"alert_title" = "Select";
+"permission_denied" = "Unable to get your contacts, enable it on your privacy preferences.";
+"alphabet" = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";

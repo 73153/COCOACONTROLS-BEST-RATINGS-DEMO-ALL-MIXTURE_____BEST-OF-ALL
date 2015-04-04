@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B16696A15722A920030C509 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B16696915722A920030C509 /* UIKit.framework */; };
+		2B16696C15722A920030C509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B16696B15722A920030C509 /* Foundation.framework */; };
+		2B16696E15722A920030C509 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B16696D15722A920030C509 /* CoreGraphics.framework */; };
+		2B16698A15722AC60030C509 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B16698915722AC60030C509 /* MediaPlayer.framework */; };
+		2BBF35251616D702006A2D02 /* LBYouTubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF35201616D702006A2D02 /* LBYouTubeExtractor.m */; };
+		2BBF352A1616DC2A006A2D02 /* LBYouTubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF35291616DC2A006A2D02 /* LBYouTubePlayerViewController.m */; };
+		F22E1E6C1578FF6100FD9E79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F22E1E6A1578FF6100FD9E79 /* InfoPlist.strings */; };
+		F22E1E701578FFBD00FD9E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F22E1E6F1578FFBD00FD9E79 /* main.m */; };
+		F23344311579011A001DC9D0 /* LBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F233442D157900ED001DC9D0 /* LBAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B15999117ECAAD10011923B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2B16696515722A920030C509 /* LBYouTubeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBYouTubeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B16696915722A920030C509 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B16696B15722A920030C509 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B16696D15722A920030C509 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B16698915722AC60030C509 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2BBF351E1616D702006A2D02 /* LBYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBYouTube.h; path = ../LBYouTubeView/LBYouTube.h; sourceTree = "<group>"; };
+		2BBF351F1616D702006A2D02 /* LBYouTubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBYouTubeExtractor.h; path = ../LBYouTubeView/LBYouTubeExtractor.h; sourceTree = "<group>"; };
+		2BBF35201616D702006A2D02 /* LBYouTubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBYouTubeExtractor.m; path = ../LBYouTubeView/LBYouTubeExtractor.m; sourceTree = "<group>"; };
+		2BBF35281616DC2A006A2D02 /* LBYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBYouTubePlayerViewController.h; path = ../LBYouTubeView/LBYouTubePlayerViewController.h; sourceTree = "<group>"; };
+		2BBF35291616DC2A006A2D02 /* LBYouTubePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBYouTubePlayerViewController.m; path = ../LBYouTubeView/LBYouTubePlayerViewController.m; sourceTree = "<group>"; };
+		F22E1E6B1578FF6100FD9E79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		F22E1E6D1578FF7B00FD9E79 /* LBYouTubeView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LBYouTubeView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F22E1E6F1578FFBD00FD9E79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		F22E1E711578FFC700FD9E79 /* LBYouTubeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBYouTubeView-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		F233442C157900ED001DC9D0 /* LBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F233442D157900ED001DC9D0 /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B16696215722A920030C509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B16698A15722AC60030C509 /* MediaPlayer.framework in Frameworks */,
+				2B16696A15722A920030C509 /* UIKit.framework in Frameworks */,
+				2B16696C15722A920030C509 /* Foundation.framework in Frameworks */,
+				2B16696E15722A920030C509 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B16695A15722A920030C509 = {
+			isa = PBXGroup;
+			children = (
+				2BCF805B15A0ABAB0053A1C6 /* LBYouTubeView */,
+				2B16696F15722A920030C509 /* LBYouTubeView Sample */,
+				2B16696815722A920030C509 /* Frameworks */,
+				2B16696615722A920030C509 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		2B16696615722A920030C509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B16696515722A920030C509 /* LBYouTubeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B16696815722A920030C509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B16698915722AC60030C509 /* MediaPlayer.framework */,
+				2B16696915722A920030C509 /* UIKit.framework */,
+				2B16696B15722A920030C509 /* Foundation.framework */,
+				2B16696D15722A920030C509 /* CoreGraphics.framework */,
+				2B15999117ECAAD10011923B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B16696F15722A920030C509 /* LBYouTubeView Sample */ = {
+			isa = PBXGroup;
+			children = (
+				F233442C157900ED001DC9D0 /* LBAppDelegate.h */,
+				F233442D157900ED001DC9D0 /* LBAppDelegate.m */,
+				2B16697015722A920030C509 /* Supporting Files */,
+			);
+			name = "LBYouTubeView Sample";
+			path = LBYouTubeView;
+			sourceTree = "<group>";
+		};
+		2B16697015722A920030C509 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F22E1E6D1578FF7B00FD9E79 /* LBYouTubeView-Info.plist */,
+				F22E1E6A1578FF6100FD9E79 /* InfoPlist.strings */,
+				F22E1E6F1578FFBD00FD9E79 /* main.m */,
+				F22E1E711578FFC700FD9E79 /* LBYouTubeView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BCF805B15A0ABAB0053A1C6 /* LBYouTubeView */ = {
+			isa = PBXGroup;
+			children = (
+				2BBF351E1616D702006A2D02 /* LBYouTube.h */,
+				2BBF351F1616D702006A2D02 /* LBYouTubeExtractor.h */,
+				2BBF35201616D702006A2D02 /* LBYouTubeExtractor.m */,
+				2BBF35281616DC2A006A2D02 /* LBYouTubePlayerViewController.h */,
+				2BBF35291616DC2A006A2D02 /* LBYouTubePlayerViewController.m */,
+			);
+			name = LBYouTubeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B16696415722A920030C509 /* LBYouTubeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B16698315722A920030C509 /* Build configuration list for PBXNativeTarget "LBYouTubeView" */;
+			buildPhases = (
+				2B16696115722A920030C509 /* Sources */,
+				2B16696215722A920030C509 /* Frameworks */,
+				2B16696315722A920030C509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBYouTubeView;
+			productName = LBYouTubeView;
+			productReference = 2B16696515722A920030C509 /* LBYouTubeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B16695C15722A920030C509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LB;
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 2B16695F15722A920030C509 /* Build configuration list for PBXProject "LBYouTubeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B16695A15722A920030C509;
+			productRefGroup = 2B16696615722A920030C509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B16696415722A920030C509 /* LBYouTubeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B16696315722A920030C509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22E1E6C1578FF6100FD9E79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B16696115722A920030C509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22E1E701578FFBD00FD9E79 /* main.m in Sources */,
+				F23344311579011A001DC9D0 /* LBAppDelegate.m in Sources */,
+				2BBF35251616D702006A2D02 /* LBYouTubeExtractor.m in Sources */,
+				2BBF352A1616DC2A006A2D02 /* LBYouTubePlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F22E1E6A1578FF6100FD9E79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F22E1E6B1578FF6100FD9E79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B16698115722A920030C509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B16698215722A920030C509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B16698415722A920030C509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBYouTubeView-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "LBYouTubeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B16698515722A920030C509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBYouTubeView-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "LBYouTubeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B16695F15722A920030C509 /* Build configuration list for PBXProject "LBYouTubeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B16698115722A920030C509 /* Debug */,
+				2B16698215722A920030C509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B16698315722A920030C509 /* Build configuration list for PBXNativeTarget "LBYouTubeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B16698415722A920030C509 /* Debug */,
+				2B16698515722A920030C509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B16695C15722A920030C509 /* Project object */;
+}

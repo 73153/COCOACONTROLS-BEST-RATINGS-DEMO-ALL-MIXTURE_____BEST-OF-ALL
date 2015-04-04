@@ -1,0 +1,30 @@
+[submodule "submodules/ADTransitionController"]
+	path = submodules/ADTransitionController
+	url = https://github.com/applidium/ADTransitionController
+[submodule "submodules/VCTransitionsLibrary"]
+	path = submodules/VCTransitionsLibrary
+	url = https://github.com/ColinEberhardt/VCTransitionsLibrary
+[submodule "submodules/Animated-Transition-Collection"]
+	path = submodules/Animated-Transition-Collection
+	url = https://github.com/SimonFairbairn/Animated-Transition-Collection
+[submodule "submodules/LCZoomTransition"]
+	path = submodules/LCZoomTransition
+	url = https://github.com/mluisbrown/LCZoomTransition
+[submodule "submodules/HUAnimator"]
+	path = submodules/HUAnimator
+	url = https://github.com/cinkster/HUAnimator
+[submodule "submodules/ZBCustomTransitions"]
+	path = submodules/ZBCustomTransitions
+	url = https://github.com/zonble/ZBCustomTransitions
+[submodule "submodules/KWTransition"]
+	path = submodules/KWTransition
+url=https://github.com/KurtWagner/KWTransition.git
+[submodule "submodules/DMCustomTransitions"]
+	path = submodules/DMCustomTransitions
+url=https://github.com/Dimillian/DMCustomTransitions.git
+[submodule "submodules/CustomTransitions"]
+	path = submodules/CustomTransitions
+url=https://github.com/gregoryklein/CustomTransitions.git
+[submodule "submodules/haldun_Transitions"]
+	path = submodules/haldun_Transitions
+url=https://github.com/haldun/Transitions.git

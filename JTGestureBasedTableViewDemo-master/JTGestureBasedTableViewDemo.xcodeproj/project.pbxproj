@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA68A5314FA443D009145F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6217C14DF7F1E00400117 /* UIKit.framework */; };
+		1AA68A5414FA443D009145F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6217E14DF7F1E00400117 /* Foundation.framework */; };
+		1AA68A5514FA443D009145F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6218014DF7F1E00400117 /* CoreGraphics.framework */; };
+		1AA68A5B14FA443D009145F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA68A5914FA443D009145F3 /* InfoPlist.strings */; };
+		1AA68A5D14FA443D009145F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA68A5C14FA443D009145F3 /* main.m */; };
+		1AA68A6114FA443D009145F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA68A6014FA443D009145F3 /* AppDelegate.m */; };
+		1AA68A6414FA443D009145F3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA68A6214FA443D009145F3 /* MainStoryboard_iPhone.storyboard */; };
+		1AA68A6714FA443D009145F3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA68A6514FA443D009145F3 /* MainStoryboard_iPad.storyboard */; };
+		1AA68A7014FA44B9009145F3 /* JTTableViewGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296DB0914E977C20044BD53 /* JTTableViewGestureRecognizer.m */; };
+		1AA68A7114FA44B9009145F3 /* JTTransformableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296DB0B14E977C20044BD53 /* JTTransformableTableViewCell.m */; };
+		1AA68A7214FA44B9009145F3 /* UIColor+JTGestureBasedTableViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B4AC6414EB47AC006574B9 /* UIColor+JTGestureBasedTableViewHelper.m */; };
+		1AA68A7314FA44CC009145F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D621BB14DF86D600400117 /* QuartzCore.framework */; };
+		1AA68A7514FA4765009145F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6218F14DF7F1E00400117 /* ViewController.m */; };
+		5296DB0C14E977C20044BD53 /* JTTableViewGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296DB0914E977C20044BD53 /* JTTableViewGestureRecognizer.m */; };
+		5296DB0D14E977C20044BD53 /* JTTransformableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296DB0B14E977C20044BD53 /* JTTransformableTableViewCell.m */; };
+		52B4AC6514EB47AC006574B9 /* UIColor+JTGestureBasedTableViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B4AC6414EB47AC006574B9 /* UIColor+JTGestureBasedTableViewHelper.m */; };
+		52D6217D14DF7F1E00400117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6217C14DF7F1E00400117 /* UIKit.framework */; };
+		52D6217F14DF7F1E00400117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6217E14DF7F1E00400117 /* Foundation.framework */; };
+		52D6218114DF7F1E00400117 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6218014DF7F1E00400117 /* CoreGraphics.framework */; };
+		52D6218714DF7F1E00400117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52D6218514DF7F1E00400117 /* InfoPlist.strings */; };
+		52D6218914DF7F1E00400117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6218814DF7F1E00400117 /* main.m */; };
+		52D6218D14DF7F1E00400117 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6218C14DF7F1E00400117 /* AppDelegate.m */; };
+		52D6219014DF7F1E00400117 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6218F14DF7F1E00400117 /* ViewController.m */; };
+		52D6219314DF7F1E00400117 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D6219114DF7F1E00400117 /* ViewController_iPhone.xib */; };
+		52D6219614DF7F1E00400117 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D6219414DF7F1E00400117 /* ViewController_iPad.xib */; };
+		52D6219E14DF7F1E00400117 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6219D14DF7F1E00400117 /* SenTestingKit.framework */; };
+		52D6219F14DF7F1E00400117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6217C14DF7F1E00400117 /* UIKit.framework */; };
+		52D621A014DF7F1E00400117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6217E14DF7F1E00400117 /* Foundation.framework */; };
+		52D621A814DF7F1E00400117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52D621A614DF7F1E00400117 /* InfoPlist.strings */; };
+		52D621AB14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D621AA14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.m */; };
+		52D621BC14DF86D600400117 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D621BB14DF86D600400117 /* QuartzCore.framework */; };
+		80F9C6E3169854CF00DC2F5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F9C6E2169854CF00DC2F5C /* Default-568h@2x.png */; };
+		80F9C6E4169854CF00DC2F5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F9C6E2169854CF00DC2F5C /* Default-568h@2x.png */; };
+		DFC2D1091558A13900348983 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC2D1071558A13900348983 /* reload.png */; };
+		DFC2D10A1558A13900348983 /* reload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC2D1081558A13900348983 /* reload@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52D621A114DF7F1E00400117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D6216F14DF7F1E00400117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D6217714DF7F1E00400117;
+			remoteInfo = JTGestureBasedTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AA68A5114FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTGestureBaseTableViewStoryBoardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA68A5814FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTGestureBaseTableViewStoryBoardDemo-Info.plist"; sourceTree = "<group>"; };
+		1AA68A5A14FA443D009145F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AA68A5C14FA443D009145F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AA68A5E14FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTGestureBaseTableViewStoryBoardDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1AA68A5F14FA443D009145F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AA68A6014FA443D009145F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AA68A6314FA443D009145F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1AA68A6614FA443D009145F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5296DB0814E977C20044BD53 /* JTTableViewGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTableViewGestureRecognizer.h; sourceTree = "<group>"; };
+		5296DB0914E977C20044BD53 /* JTTableViewGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTableViewGestureRecognizer.m; sourceTree = "<group>"; };
+		5296DB0A14E977C20044BD53 /* JTTransformableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTransformableTableViewCell.h; sourceTree = "<group>"; };
+		5296DB0B14E977C20044BD53 /* JTTransformableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTransformableTableViewCell.m; sourceTree = "<group>"; };
+		52B4AC6314EB47AC006574B9 /* UIColor+JTGestureBasedTableViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JTGestureBasedTableViewHelper.h"; sourceTree = "<group>"; };
+		52B4AC6414EB47AC006574B9 /* UIColor+JTGestureBasedTableViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JTGestureBasedTableViewHelper.m"; sourceTree = "<group>"; };
+		52D6217814DF7F1E00400117 /* JTGestureBasedTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTGestureBasedTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6217C14DF7F1E00400117 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52D6217E14DF7F1E00400117 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52D6218014DF7F1E00400117 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52D6218414DF7F1E00400117 /* JTGestureBasedTableViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTGestureBasedTableViewDemo-Info.plist"; sourceTree = "<group>"; };
+		52D6218614DF7F1E00400117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52D6218814DF7F1E00400117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52D6218A14DF7F1E00400117 /* JTGestureBasedTableViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTGestureBasedTableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		52D6218B14DF7F1E00400117 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52D6218C14DF7F1E00400117 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52D6218E14DF7F1E00400117 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52D6218F14DF7F1E00400117 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52D6219214DF7F1E00400117 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		52D6219514DF7F1E00400117 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		52D6219C14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTGestureBasedTableViewDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6219D14DF7F1E00400117 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		52D621A514DF7F1E00400117 /* JTGestureBasedTableViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTGestureBasedTableViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		52D621A714DF7F1E00400117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52D621A914DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTGestureBasedTableViewDemoTests.h; sourceTree = "<group>"; };
+		52D621AA14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTGestureBasedTableViewDemoTests.m; sourceTree = "<group>"; };
+		52D621BB14DF86D600400117 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80F9C6E2169854CF00DC2F5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		DFC2D1071558A13900348983 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		DFC2D1081558A13900348983 /* reload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA68A4E14FA443D009145F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA68A5314FA443D009145F3 /* UIKit.framework in Frameworks */,
+				1AA68A5414FA443D009145F3 /* Foundation.framework in Frameworks */,
+				1AA68A5514FA443D009145F3 /* CoreGraphics.framework in Frameworks */,
+				1AA68A7314FA44CC009145F3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D6217514DF7F1E00400117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D621BC14DF86D600400117 /* QuartzCore.framework in Frameworks */,
+				52D6217D14DF7F1E00400117 /* UIKit.framework in Frameworks */,
+				52D6217F14DF7F1E00400117 /* Foundation.framework in Frameworks */,
+				52D6218114DF7F1E00400117 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D6219814DF7F1E00400117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D6219E14DF7F1E00400117 /* SenTestingKit.framework in Frameworks */,
+				52D6219F14DF7F1E00400117 /* UIKit.framework in Frameworks */,
+				52D621A014DF7F1E00400117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA68A5614FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1AA68A5F14FA443D009145F3 /* AppDelegate.h */,
+				1AA68A6014FA443D009145F3 /* AppDelegate.m */,
+				1AA68A6214FA443D009145F3 /* MainStoryboard_iPhone.storyboard */,
+				1AA68A6514FA443D009145F3 /* MainStoryboard_iPad.storyboard */,
+				1AA68A5714FA443D009145F3 /* Supporting Files */,
+			);
+			path = JTGestureBaseTableViewStoryBoardDemo;
+			sourceTree = "<group>";
+		};
+		1AA68A5714FA443D009145F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA68A5814FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo-Info.plist */,
+				1AA68A5914FA443D009145F3 /* InfoPlist.strings */,
+				1AA68A5C14FA443D009145F3 /* main.m */,
+				1AA68A5E14FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5296DB0714E977C20044BD53 /* JTGestureBasedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5296DB0814E977C20044BD53 /* JTTableViewGestureRecognizer.h */,
+				5296DB0914E977C20044BD53 /* JTTableViewGestureRecognizer.m */,
+				5296DB0A14E977C20044BD53 /* JTTransformableTableViewCell.h */,
+				5296DB0B14E977C20044BD53 /* JTTransformableTableViewCell.m */,
+				52B4AC6314EB47AC006574B9 /* UIColor+JTGestureBasedTableViewHelper.h */,
+				52B4AC6414EB47AC006574B9 /* UIColor+JTGestureBasedTableViewHelper.m */,
+			);
+			path = JTGestureBasedTableView;
+			sourceTree = "<group>";
+		};
+		52D6216D14DF7F1E00400117 = {
+			isa = PBXGroup;
+			children = (
+				5296DB0714E977C20044BD53 /* JTGestureBasedTableView */,
+				52D621BB14DF86D600400117 /* QuartzCore.framework */,
+				52D6218214DF7F1E00400117 /* JTGestureBasedTableViewDemo */,
+				52D621A314DF7F1E00400117 /* JTGestureBasedTableViewDemoTests */,
+				1AA68A5614FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo */,
+				52D6217B14DF7F1E00400117 /* Frameworks */,
+				52D6217914DF7F1E00400117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D6217914DF7F1E00400117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D6217814DF7F1E00400117 /* JTGestureBasedTableViewDemo.app */,
+				52D6219C14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.octest */,
+				1AA68A5114FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D6217B14DF7F1E00400117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D6217C14DF7F1E00400117 /* UIKit.framework */,
+				52D6217E14DF7F1E00400117 /* Foundation.framework */,
+				52D6218014DF7F1E00400117 /* CoreGraphics.framework */,
+				52D6219D14DF7F1E00400117 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52D6218214DF7F1E00400117 /* JTGestureBasedTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				80F9C6E2169854CF00DC2F5C /* Default-568h@2x.png */,
+				52D6218B14DF7F1E00400117 /* AppDelegate.h */,
+				52D6218C14DF7F1E00400117 /* AppDelegate.m */,
+				52D6218E14DF7F1E00400117 /* ViewController.h */,
+				52D6218F14DF7F1E00400117 /* ViewController.m */,
+				52D6219114DF7F1E00400117 /* ViewController_iPhone.xib */,
+				52D6219414DF7F1E00400117 /* ViewController_iPad.xib */,
+				52D6218314DF7F1E00400117 /* Supporting Files */,
+			);
+			path = JTGestureBasedTableViewDemo;
+			sourceTree = "<group>";
+		};
+		52D6218314DF7F1E00400117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2D1061558A13900348983 /* Resources */,
+				52D6218414DF7F1E00400117 /* JTGestureBasedTableViewDemo-Info.plist */,
+				52D6218514DF7F1E00400117 /* InfoPlist.strings */,
+				52D6218814DF7F1E00400117 /* main.m */,
+				52D6218A14DF7F1E00400117 /* JTGestureBasedTableViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52D621A314DF7F1E00400117 /* JTGestureBasedTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52D621A914DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.h */,
+				52D621AA14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.m */,
+				52D621A414DF7F1E00400117 /* Supporting Files */,
+			);
+			path = JTGestureBasedTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		52D621A414DF7F1E00400117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52D621A514DF7F1E00400117 /* JTGestureBasedTableViewDemoTests-Info.plist */,
+				52D621A614DF7F1E00400117 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFC2D1061558A13900348983 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2D1071558A13900348983 /* reload.png */,
+				DFC2D1081558A13900348983 /* reload@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AA68A5014FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA68A6D14FA443D009145F3 /* Build configuration list for PBXNativeTarget "JTGestureBaseTableViewStoryBoardDemo" */;
+			buildPhases = (
+				1AA68A4D14FA443D009145F3 /* Sources */,
+				1AA68A4E14FA443D009145F3 /* Frameworks */,
+				1AA68A4F14FA443D009145F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTGestureBaseTableViewStoryBoardDemo;
+			productName = JTGestureBaseTableViewStoryBoardDemo;
+			productReference = 1AA68A5114FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D6217714DF7F1E00400117 /* JTGestureBasedTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D621AE14DF7F1E00400117 /* Build configuration list for PBXNativeTarget "JTGestureBasedTableViewDemo" */;
+			buildPhases = (
+				52D6217414DF7F1E00400117 /* Sources */,
+				52D6217514DF7F1E00400117 /* Frameworks */,
+				52D6217614DF7F1E00400117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTGestureBasedTableViewDemo;
+			productName = JTGestureBasedTableViewDemo;
+			productReference = 52D6217814DF7F1E00400117 /* JTGestureBasedTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D6219B14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D621B114DF7F1E00400117 /* Build configuration list for PBXNativeTarget "JTGestureBasedTableViewDemoTests" */;
+			buildPhases = (
+				52D6219714DF7F1E00400117 /* Sources */,
+				52D6219814DF7F1E00400117 /* Frameworks */,
+				52D6219914DF7F1E00400117 /* Resources */,
+				52D6219A14DF7F1E00400117 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D621A214DF7F1E00400117 /* PBXTargetDependency */,
+			);
+			name = JTGestureBasedTableViewDemoTests;
+			productName = JTGestureBasedTableViewDemoTests;
+			productReference = 52D6219C14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D6216F14DF7F1E00400117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 52D6217214DF7F1E00400117 /* Build configuration list for PBXProject "JTGestureBasedTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52D6216D14DF7F1E00400117;
+			productRefGroup = 52D6217914DF7F1E00400117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D6217714DF7F1E00400117 /* JTGestureBasedTableViewDemo */,
+				52D6219B14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests */,
+				1AA68A5014FA443D009145F3 /* JTGestureBaseTableViewStoryBoardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA68A4F14FA443D009145F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA68A5B14FA443D009145F3 /* InfoPlist.strings in Resources */,
+				1AA68A6414FA443D009145F3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				1AA68A6714FA443D009145F3 /* MainStoryboard_iPad.storyboard in Resources */,
+				80F9C6E4169854CF00DC2F5C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D6217614DF7F1E00400117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D6218714DF7F1E00400117 /* InfoPlist.strings in Resources */,
+				52D6219314DF7F1E00400117 /* ViewController_iPhone.xib in Resources */,
+				52D6219614DF7F1E00400117 /* ViewController_iPad.xib in Resources */,
+				DFC2D1091558A13900348983 /* reload.png in Resources */,
+				DFC2D10A1558A13900348983 /* reload@2x.png in Resources */,
+				80F9C6E3169854CF00DC2F5C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D6219914DF7F1E00400117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D621A814DF7F1E00400117 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52D6219A14DF7F1E00400117 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA68A4D14FA443D009145F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA68A5D14FA443D009145F3 /* main.m in Sources */,
+				1AA68A6114FA443D009145F3 /* AppDelegate.m in Sources */,
+				1AA68A7014FA44B9009145F3 /* JTTableViewGestureRecognizer.m in Sources */,
+				1AA68A7114FA44B9009145F3 /* JTTransformableTableViewCell.m in Sources */,
+				1AA68A7214FA44B9009145F3 /* UIColor+JTGestureBasedTableViewHelper.m in Sources */,
+				1AA68A7514FA4765009145F3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D6217414DF7F1E00400117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D6218914DF7F1E00400117 /* main.m in Sources */,
+				52D6218D14DF7F1E00400117 /* AppDelegate.m in Sources */,
+				52D6219014DF7F1E00400117 /* ViewController.m in Sources */,
+				5296DB0C14E977C20044BD53 /* JTTableViewGestureRecognizer.m in Sources */,
+				5296DB0D14E977C20044BD53 /* JTTransformableTableViewCell.m in Sources */,
+				52B4AC6514EB47AC006574B9 /* UIColor+JTGestureBasedTableViewHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D6219714DF7F1E00400117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D621AB14DF7F1E00400117 /* JTGestureBasedTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D621A214DF7F1E00400117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D6217714DF7F1E00400117 /* JTGestureBasedTableViewDemo */;
+			targetProxy = 52D621A114DF7F1E00400117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AA68A5914FA443D009145F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA68A5A14FA443D009145F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AA68A6214FA443D009145F3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA68A6314FA443D009145F3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1AA68A6514FA443D009145F3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA68A6614FA443D009145F3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		52D6218514DF7F1E00400117 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D6218614DF7F1E00400117 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52D6219114DF7F1E00400117 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D6219214DF7F1E00400117 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		52D6219414DF7F1E00400117 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D6219514DF7F1E00400117 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		52D621A614DF7F1E00400117 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D621A714DF7F1E00400117 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AA68A6B14FA443D009145F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTGestureBaseTableViewStoryBoardDemo/JTGestureBaseTableViewStoryBoardDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTGestureBaseTableViewStoryBoardDemo/JTGestureBaseTableViewStoryBoardDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AA68A6C14FA443D009145F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTGestureBaseTableViewStoryBoardDemo/JTGestureBaseTableViewStoryBoardDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTGestureBaseTableViewStoryBoardDemo/JTGestureBaseTableViewStoryBoardDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52D621AC14DF7F1E00400117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D621AD14DF7F1E00400117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D621AF14DF7F1E00400117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTGestureBasedTableViewDemo/JTGestureBasedTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTGestureBasedTableViewDemo/JTGestureBasedTableViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52D621B014DF7F1E00400117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTGestureBasedTableViewDemo/JTGestureBasedTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTGestureBasedTableViewDemo/JTGestureBasedTableViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52D621B214DF7F1E00400117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JTGestureBasedTableViewDemo.app/JTGestureBasedTableViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTGestureBasedTableViewDemo/JTGestureBasedTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTGestureBasedTableViewDemoTests/JTGestureBasedTableViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		52D621B314DF7F1E00400117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JTGestureBasedTableViewDemo.app/JTGestureBasedTableViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTGestureBasedTableViewDemo/JTGestureBasedTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JTGestureBasedTableViewDemoTests/JTGestureBasedTableViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA68A6D14FA443D009145F3 /* Build configuration list for PBXNativeTarget "JTGestureBaseTableViewStoryBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA68A6B14FA443D009145F3 /* Debug */,
+				1AA68A6C14FA443D009145F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D6217214DF7F1E00400117 /* Build configuration list for PBXProject "JTGestureBasedTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D621AC14DF7F1E00400117 /* Debug */,
+				52D621AD14DF7F1E00400117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D621AE14DF7F1E00400117 /* Build configuration list for PBXNativeTarget "JTGestureBasedTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D621AF14DF7F1E00400117 /* Debug */,
+				52D621B014DF7F1E00400117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D621B114DF7F1E00400117 /* Build configuration list for PBXNativeTarget "JTGestureBasedTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D621B214DF7F1E00400117 /* Debug */,
+				52D621B314DF7F1E00400117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D6216F14DF7F1E00400117 /* Project object */;
+}

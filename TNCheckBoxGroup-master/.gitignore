@@ -1,0 +1,12 @@
+# xcode noise
+build/*
+*.pbxuser
+*.xcworkspace
+xcuserdata
+CheckieDemo/xcuserdata/*
+
+# osx noise
+/.DS_Store
+/CheckieDemo/.DS_Store
+
+.DS_Store

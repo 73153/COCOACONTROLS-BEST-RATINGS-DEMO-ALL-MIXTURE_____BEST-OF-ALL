@@ -1,0 +1,1 @@
+UIView subclass that implements pullable behaviour similar to the Notification Center in iOS 5. More information: http://www.crocodella.com.br/2012/01/a-pullable-view-implementation-like-notification-center/

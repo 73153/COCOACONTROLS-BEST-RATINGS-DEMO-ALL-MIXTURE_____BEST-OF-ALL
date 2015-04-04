@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A11EBF618CCFBDB00B77081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A11EBF518CCFBDB00B77081 /* Foundation.framework */; };
+		8A11EBF818CCFBDB00B77081 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A11EBF718CCFBDB00B77081 /* CoreGraphics.framework */; };
+		8A11EBFA18CCFBDB00B77081 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A11EBF918CCFBDB00B77081 /* UIKit.framework */; };
+		8A11EC0018CCFBDC00B77081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A11EBFE18CCFBDC00B77081 /* InfoPlist.strings */; };
+		8A11EC0218CCFBDC00B77081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC0118CCFBDC00B77081 /* main.m */; };
+		8A11EC0618CCFBDC00B77081 /* TTMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC0518CCFBDC00B77081 /* TTMAppDelegate.m */; };
+		8A11EC0918CCFBDC00B77081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A11EC0718CCFBDC00B77081 /* Main.storyboard */; };
+		8A11EC0C18CCFBDC00B77081 /* TTMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC0B18CCFBDC00B77081 /* TTMMasterViewController.m */; };
+		8A11EC0F18CCFBDC00B77081 /* TTMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC0E18CCFBDC00B77081 /* TTMDetailViewController.m */; };
+		8A11EC1118CCFBDC00B77081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A11EC1018CCFBDC00B77081 /* Images.xcassets */; };
+		8A11EC1818CCFBDC00B77081 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A11EC1718CCFBDC00B77081 /* XCTest.framework */; };
+		8A11EC1918CCFBDC00B77081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A11EBF518CCFBDB00B77081 /* Foundation.framework */; };
+		8A11EC1A18CCFBDC00B77081 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A11EBF918CCFBDB00B77081 /* UIKit.framework */; };
+		8A11EC2218CCFBDC00B77081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A11EC2018CCFBDC00B77081 /* InfoPlist.strings */; };
+		8A11EC2418CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC2318CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests.m */; };
+		8A11EC3A18CCFCC000B77081 /* HUTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC3318CCFCC000B77081 /* HUTransitionAnimator.m */; };
+		8A11EC3B18CCFCC000B77081 /* HUTransitionGhostAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC3518CCFCC000B77081 /* HUTransitionGhostAnimator.m */; };
+		8A11EC3C18CCFCC000B77081 /* HUTransitionHorizontalLinesAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC3718CCFCC000B77081 /* HUTransitionHorizontalLinesAnimator.m */; };
+		8A11EC3D18CCFCC000B77081 /* HUTransitionVerticalLinesAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC3918CCFCC000B77081 /* HUTransitionVerticalLinesAnimator.m */; };
+		8A11EC5518CCFCDD00B77081 /* UIViewController+Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC4618CCFCDD00B77081 /* UIViewController+Animator.m */; };
+		8A11EC5918CCFCDD00B77081 /* ZBFallenBricksAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11EC4E18CCFCDD00B77081 /* ZBFallenBricksAnimator.m */; };
+		8A15461618FE495B00BD36DF /* DMAlphaTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15460F18FE495B00BD36DF /* DMAlphaTransition.m */; };
+		8A15461718FE495B00BD36DF /* DMBaseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15461118FE495B00BD36DF /* DMBaseTransition.m */; };
+		8A15461818FE495B00BD36DF /* DMScaleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15461318FE495B00BD36DF /* DMScaleTransition.m */; };
+		8A15461918FE495B00BD36DF /* DMSlideTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15461518FE495B00BD36DF /* DMSlideTransition.m */; };
+		8A15463018FE4C9800BD36DF /* HFAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15462218FE4C9800BD36DF /* HFAnimator.m */; };
+		8A15463218FE4C9800BD36DF /* HFDynamicAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15462618FE4C9800BD36DF /* HFDynamicAnimator.m */; };
+		8A15466018FE4F0100BD36DF /* BouncePresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15464818FE4F0100BD36DF /* BouncePresentTransition.m */; };
+		8A15466618FE4F0100BD36DF /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15465418FE4F0100BD36DF /* FlipTransition.m */; };
+		8A15466918FE4F0100BD36DF /* ShrinkDismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15465818FE4F0100BD36DF /* ShrinkDismissTransition.m */; };
+		8A15FFF819F332CF00914B6E /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A15FFF719F332CF00914B6E /* Launch Screen.xib */; };
+		8A6E7F1F18FD2B5A00AFC158 /* ATCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F1418FD2B5A00AFC158 /* ATCAnimatedTransitioning.m */; };
+		8A6E7F2018FD2B5A00AFC158 /* ATCAnimatedTransitioningBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F1618FD2B5A00AFC158 /* ATCAnimatedTransitioningBounce.m */; };
+		8A6E7F2118FD2B5A00AFC158 /* ATCAnimatedTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F1818FD2B5A00AFC158 /* ATCAnimatedTransitioningFade.m */; };
+		8A6E7F2218FD2B5A00AFC158 /* ATCAnimatedTransitioningFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F1A18FD2B5A00AFC158 /* ATCAnimatedTransitioningFloat.m */; };
+		8A6E7F2318FD2B5A00AFC158 /* ATCAnimatedTransitioningSquish.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F1C18FD2B5A00AFC158 /* ATCAnimatedTransitioningSquish.m */; };
+		8A6E7F2418FD2B5A00AFC158 /* ATCTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F1E18FD2B5A00AFC158 /* ATCTransitioningDelegate.m */; };
+		8A6E7F2818FD374700AFC158 /* LCZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F2718FD374700AFC158 /* LCZoomTransition.m */; };
+		8A6E7F3E18FD394000AFC158 /* CECardsAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F2B18FD394000AFC158 /* CECardsAnimationController.m */; };
+		8A6E7F3F18FD394000AFC158 /* CECrossfadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F2D18FD394000AFC158 /* CECrossfadeAnimationController.m */; };
+		8A6E7F4018FD394000AFC158 /* CECubeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F2F18FD394000AFC158 /* CECubeAnimationController.m */; };
+		8A6E7F4118FD394000AFC158 /* CEExplodeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F3118FD394000AFC158 /* CEExplodeAnimationController.m */; };
+		8A6E7F4218FD394000AFC158 /* CEFlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F3318FD394000AFC158 /* CEFlipAnimationController.m */; };
+		8A6E7F4318FD394000AFC158 /* CEFoldAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F3518FD394000AFC158 /* CEFoldAnimationController.m */; };
+		8A6E7F4418FD394000AFC158 /* CENatGeoAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F3718FD394000AFC158 /* CENatGeoAnimationController.m */; };
+		8A6E7F4518FD394000AFC158 /* CEPortalAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F3918FD394000AFC158 /* CEPortalAnimationController.m */; };
+		8A6E7F4618FD394000AFC158 /* CEReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F3B18FD394000AFC158 /* CEReversibleAnimationController.m */; };
+		8A6E7F4718FD394000AFC158 /* CETurnAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F3D18FD394000AFC158 /* CETurnAnimationController.m */; };
+		8A6E7FC718FD581200AFC158 /* ADBackFadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F9618FD581200AFC158 /* ADBackFadeTransition.m */; };
+		8A6E7FC818FD581200AFC158 /* ADCarrouselTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F9818FD581200AFC158 /* ADCarrouselTransition.m */; };
+		8A6E7FC918FD581200AFC158 /* ADCrossTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F9A18FD581200AFC158 /* ADCrossTransition.m */; };
+		8A6E7FCA18FD581200AFC158 /* ADCubeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F9C18FD581200AFC158 /* ADCubeTransition.m */; };
+		8A6E7FCB18FD581200AFC158 /* ADDualTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7F9E18FD581200AFC158 /* ADDualTransition.m */; };
+		8A6E7FCC18FD581200AFC158 /* ADFadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FA018FD581200AFC158 /* ADFadeTransition.m */; };
+		8A6E7FCD18FD581200AFC158 /* ADFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FA218FD581200AFC158 /* ADFlipTransition.m */; };
+		8A6E7FCE18FD581200AFC158 /* ADFoldTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FA418FD581200AFC158 /* ADFoldTransition.m */; };
+		8A6E7FCF18FD581200AFC158 /* ADGhostTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FA618FD581200AFC158 /* ADGhostTransition.m */; };
+		8A6E7FD018FD581200AFC158 /* ADGlueTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FA818FD581200AFC158 /* ADGlueTransition.m */; };
+		8A6E7FD118FD581200AFC158 /* ADModernPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FAA18FD581200AFC158 /* ADModernPushTransition.m */; };
+		8A6E7FD218FD581200AFC158 /* ADNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FAC18FD581200AFC158 /* ADNavigationControllerDelegate.m */; };
+		8A6E7FD318FD581200AFC158 /* ADPushRotateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FAE18FD581200AFC158 /* ADPushRotateTransition.m */; };
+		8A6E7FD418FD581200AFC158 /* ADScaleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FB018FD581200AFC158 /* ADScaleTransition.m */; };
+		8A6E7FD518FD581200AFC158 /* ADSlideTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FB218FD581200AFC158 /* ADSlideTransition.m */; };
+		8A6E7FD618FD581200AFC158 /* ADSwapTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FB418FD581200AFC158 /* ADSwapTransition.m */; };
+		8A6E7FD718FD581200AFC158 /* ADSwipeFadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FB618FD581200AFC158 /* ADSwipeFadeTransition.m */; };
+		8A6E7FD818FD581200AFC158 /* ADSwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FB818FD581200AFC158 /* ADSwipeTransition.m */; };
+		8A6E7FD918FD581200AFC158 /* ADTransformTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FBA18FD581200AFC158 /* ADTransformTransition.m */; };
+		8A6E7FDA18FD581200AFC158 /* ADTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FBC18FD581200AFC158 /* ADTransition.m */; };
+		8A6E7FDB18FD581200AFC158 /* ADTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FBE18FD581200AFC158 /* ADTransitionController.m */; };
+		8A6E7FDC18FD581200AFC158 /* ADTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FC018FD581200AFC158 /* ADTransitioningDelegate.m */; };
+		8A6E7FDD18FD581200AFC158 /* ADTransitioningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FC218FD581200AFC158 /* ADTransitioningViewController.m */; };
+		8A6E7FDE18FD581200AFC158 /* ADZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FC418FD581200AFC158 /* ADZoomTransition.m */; };
+		8A6E7FDF18FD581200AFC158 /* UIViewController+ADTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FC618FD581200AFC158 /* UIViewController+ADTransitionController.m */; };
+		8A6E801918FE272E00AFC158 /* KWTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E7FF018FE272E00AFC158 /* KWTransition.m */; };
+		8A6E803B18FE290E00AFC158 /* KWTransitionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E803A18FE290E00AFC158 /* KWTransitionHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A11EC1B18CCFBDC00B77081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A11EBEA18CCFBDB00B77081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A11EBF118CCFBDB00B77081;
+			remoteInfo = TTMAnimatedTransitionGallery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A11EBF218CCFBDB00B77081 /* TTMAnimatedTransitionGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTMAnimatedTransitionGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A11EBF518CCFBDB00B77081 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A11EBF718CCFBDB00B77081 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A11EBF918CCFBDB00B77081 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A11EBFD18CCFBDC00B77081 /* TTMAnimatedTransitionGallery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTMAnimatedTransitionGallery-Info.plist"; sourceTree = "<group>"; };
+		8A11EBFF18CCFBDC00B77081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A11EC0118CCFBDC00B77081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A11EC0318CCFBDC00B77081 /* TTMAnimatedTransitionGallery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTMAnimatedTransitionGallery-Prefix.pch"; sourceTree = "<group>"; };
+		8A11EC0418CCFBDC00B77081 /* TTMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTMAppDelegate.h; sourceTree = "<group>"; };
+		8A11EC0518CCFBDC00B77081 /* TTMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTMAppDelegate.m; sourceTree = "<group>"; };
+		8A11EC0818CCFBDC00B77081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A11EC0A18CCFBDC00B77081 /* TTMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTMMasterViewController.h; sourceTree = "<group>"; };
+		8A11EC0B18CCFBDC00B77081 /* TTMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTMMasterViewController.m; sourceTree = "<group>"; };
+		8A11EC0D18CCFBDC00B77081 /* TTMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTMDetailViewController.h; sourceTree = "<group>"; };
+		8A11EC0E18CCFBDC00B77081 /* TTMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTMDetailViewController.m; sourceTree = "<group>"; };
+		8A11EC1018CCFBDC00B77081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8A11EC1618CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTMAnimatedTransitionGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A11EC1718CCFBDC00B77081 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8A11EC1F18CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTMAnimatedTransitionGalleryTests-Info.plist"; sourceTree = "<group>"; };
+		8A11EC2118CCFBDC00B77081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A11EC2318CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTMAnimatedTransitionGalleryTests.m; sourceTree = "<group>"; };
+		8A11EC3218CCFCC000B77081 /* HUTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionAnimator.h; sourceTree = "<group>"; };
+		8A11EC3318CCFCC000B77081 /* HUTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionAnimator.m; sourceTree = "<group>"; };
+		8A11EC3418CCFCC000B77081 /* HUTransitionGhostAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionGhostAnimator.h; sourceTree = "<group>"; };
+		8A11EC3518CCFCC000B77081 /* HUTransitionGhostAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionGhostAnimator.m; sourceTree = "<group>"; };
+		8A11EC3618CCFCC000B77081 /* HUTransitionHorizontalLinesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionHorizontalLinesAnimator.h; sourceTree = "<group>"; };
+		8A11EC3718CCFCC000B77081 /* HUTransitionHorizontalLinesAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionHorizontalLinesAnimator.m; sourceTree = "<group>"; };
+		8A11EC3818CCFCC000B77081 /* HUTransitionVerticalLinesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionVerticalLinesAnimator.h; sourceTree = "<group>"; };
+		8A11EC3918CCFCC000B77081 /* HUTransitionVerticalLinesAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionVerticalLinesAnimator.m; sourceTree = "<group>"; };
+		8A11EC4518CCFCDD00B77081 /* UIViewController+Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Animator.h"; sourceTree = "<group>"; };
+		8A11EC4618CCFCDD00B77081 /* UIViewController+Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Animator.m"; sourceTree = "<group>"; };
+		8A11EC4D18CCFCDD00B77081 /* ZBFallenBricksAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBFallenBricksAnimator.h; sourceTree = "<group>"; };
+		8A11EC4E18CCFCDD00B77081 /* ZBFallenBricksAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBFallenBricksAnimator.m; sourceTree = "<group>"; };
+		8A15460E18FE495B00BD36DF /* DMAlphaTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAlphaTransition.h; sourceTree = "<group>"; };
+		8A15460F18FE495B00BD36DF /* DMAlphaTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAlphaTransition.m; sourceTree = "<group>"; };
+		8A15461018FE495B00BD36DF /* DMBaseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseTransition.h; sourceTree = "<group>"; };
+		8A15461118FE495B00BD36DF /* DMBaseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseTransition.m; sourceTree = "<group>"; };
+		8A15461218FE495B00BD36DF /* DMScaleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMScaleTransition.h; sourceTree = "<group>"; };
+		8A15461318FE495B00BD36DF /* DMScaleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMScaleTransition.m; sourceTree = "<group>"; };
+		8A15461418FE495B00BD36DF /* DMSlideTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSlideTransition.h; sourceTree = "<group>"; };
+		8A15461518FE495B00BD36DF /* DMSlideTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSlideTransition.m; sourceTree = "<group>"; };
+		8A15462118FE4C9800BD36DF /* HFAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAnimator.h; sourceTree = "<group>"; };
+		8A15462218FE4C9800BD36DF /* HFAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAnimator.m; sourceTree = "<group>"; };
+		8A15462518FE4C9800BD36DF /* HFDynamicAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDynamicAnimator.h; sourceTree = "<group>"; };
+		8A15462618FE4C9800BD36DF /* HFDynamicAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDynamicAnimator.m; sourceTree = "<group>"; };
+		8A15464718FE4F0100BD36DF /* BouncePresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncePresentTransition.h; sourceTree = "<group>"; };
+		8A15464818FE4F0100BD36DF /* BouncePresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncePresentTransition.m; sourceTree = "<group>"; };
+		8A15465318FE4F0100BD36DF /* FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTransition.h; sourceTree = "<group>"; };
+		8A15465418FE4F0100BD36DF /* FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransition.m; sourceTree = "<group>"; };
+		8A15465718FE4F0100BD36DF /* ShrinkDismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShrinkDismissTransition.h; sourceTree = "<group>"; };
+		8A15465818FE4F0100BD36DF /* ShrinkDismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShrinkDismissTransition.m; sourceTree = "<group>"; };
+		8A15FFF719F332CF00914B6E /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		8A6E7F1318FD2B5A00AFC158 /* ATCAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioning.h; sourceTree = "<group>"; };
+		8A6E7F1418FD2B5A00AFC158 /* ATCAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioning.m; sourceTree = "<group>"; };
+		8A6E7F1518FD2B5A00AFC158 /* ATCAnimatedTransitioningBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioningBounce.h; sourceTree = "<group>"; };
+		8A6E7F1618FD2B5A00AFC158 /* ATCAnimatedTransitioningBounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioningBounce.m; sourceTree = "<group>"; };
+		8A6E7F1718FD2B5A00AFC158 /* ATCAnimatedTransitioningFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioningFade.h; sourceTree = "<group>"; };
+		8A6E7F1818FD2B5A00AFC158 /* ATCAnimatedTransitioningFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioningFade.m; sourceTree = "<group>"; };
+		8A6E7F1918FD2B5A00AFC158 /* ATCAnimatedTransitioningFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioningFloat.h; sourceTree = "<group>"; };
+		8A6E7F1A18FD2B5A00AFC158 /* ATCAnimatedTransitioningFloat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioningFloat.m; sourceTree = "<group>"; };
+		8A6E7F1B18FD2B5A00AFC158 /* ATCAnimatedTransitioningSquish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCAnimatedTransitioningSquish.h; sourceTree = "<group>"; };
+		8A6E7F1C18FD2B5A00AFC158 /* ATCAnimatedTransitioningSquish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCAnimatedTransitioningSquish.m; sourceTree = "<group>"; };
+		8A6E7F1D18FD2B5A00AFC158 /* ATCTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCTransitioningDelegate.h; sourceTree = "<group>"; };
+		8A6E7F1E18FD2B5A00AFC158 /* ATCTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCTransitioningDelegate.m; sourceTree = "<group>"; };
+		8A6E7F2618FD374700AFC158 /* LCZoomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCZoomTransition.h; sourceTree = "<group>"; };
+		8A6E7F2718FD374700AFC158 /* LCZoomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCZoomTransition.m; sourceTree = "<group>"; };
+		8A6E7F2A18FD394000AFC158 /* CECardsAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECardsAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F2B18FD394000AFC158 /* CECardsAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECardsAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F2C18FD394000AFC158 /* CECrossfadeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECrossfadeAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F2D18FD394000AFC158 /* CECrossfadeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECrossfadeAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F2E18FD394000AFC158 /* CECubeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECubeAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F2F18FD394000AFC158 /* CECubeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECubeAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F3018FD394000AFC158 /* CEExplodeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEExplodeAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F3118FD394000AFC158 /* CEExplodeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEExplodeAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F3218FD394000AFC158 /* CEFlipAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEFlipAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F3318FD394000AFC158 /* CEFlipAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEFlipAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F3418FD394000AFC158 /* CEFoldAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEFoldAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F3518FD394000AFC158 /* CEFoldAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEFoldAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F3618FD394000AFC158 /* CENatGeoAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CENatGeoAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F3718FD394000AFC158 /* CENatGeoAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENatGeoAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F3818FD394000AFC158 /* CEPortalAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEPortalAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F3918FD394000AFC158 /* CEPortalAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEPortalAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F3A18FD394000AFC158 /* CEReversibleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEReversibleAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F3B18FD394000AFC158 /* CEReversibleAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEReversibleAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F3C18FD394000AFC158 /* CETurnAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CETurnAnimationController.h; sourceTree = "<group>"; };
+		8A6E7F3D18FD394000AFC158 /* CETurnAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CETurnAnimationController.m; sourceTree = "<group>"; };
+		8A6E7F9518FD581200AFC158 /* ADBackFadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBackFadeTransition.h; sourceTree = "<group>"; };
+		8A6E7F9618FD581200AFC158 /* ADBackFadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBackFadeTransition.m; sourceTree = "<group>"; };
+		8A6E7F9718FD581200AFC158 /* ADCarrouselTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCarrouselTransition.h; sourceTree = "<group>"; };
+		8A6E7F9818FD581200AFC158 /* ADCarrouselTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCarrouselTransition.m; sourceTree = "<group>"; };
+		8A6E7F9918FD581200AFC158 /* ADCrossTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCrossTransition.h; sourceTree = "<group>"; };
+		8A6E7F9A18FD581200AFC158 /* ADCrossTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCrossTransition.m; sourceTree = "<group>"; };
+		8A6E7F9B18FD581200AFC158 /* ADCubeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCubeTransition.h; sourceTree = "<group>"; };
+		8A6E7F9C18FD581200AFC158 /* ADCubeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCubeTransition.m; sourceTree = "<group>"; };
+		8A6E7F9D18FD581200AFC158 /* ADDualTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDualTransition.h; sourceTree = "<group>"; };
+		8A6E7F9E18FD581200AFC158 /* ADDualTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDualTransition.m; sourceTree = "<group>"; };
+		8A6E7F9F18FD581200AFC158 /* ADFadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFadeTransition.h; sourceTree = "<group>"; };
+		8A6E7FA018FD581200AFC158 /* ADFadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFadeTransition.m; sourceTree = "<group>"; };
+		8A6E7FA118FD581200AFC158 /* ADFlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFlipTransition.h; sourceTree = "<group>"; };
+		8A6E7FA218FD581200AFC158 /* ADFlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFlipTransition.m; sourceTree = "<group>"; };
+		8A6E7FA318FD581200AFC158 /* ADFoldTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFoldTransition.h; sourceTree = "<group>"; };
+		8A6E7FA418FD581200AFC158 /* ADFoldTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFoldTransition.m; sourceTree = "<group>"; };
+		8A6E7FA518FD581200AFC158 /* ADGhostTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADGhostTransition.h; sourceTree = "<group>"; };
+		8A6E7FA618FD581200AFC158 /* ADGhostTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADGhostTransition.m; sourceTree = "<group>"; };
+		8A6E7FA718FD581200AFC158 /* ADGlueTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADGlueTransition.h; sourceTree = "<group>"; };
+		8A6E7FA818FD581200AFC158 /* ADGlueTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADGlueTransition.m; sourceTree = "<group>"; };
+		8A6E7FA918FD581200AFC158 /* ADModernPushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADModernPushTransition.h; sourceTree = "<group>"; };
+		8A6E7FAA18FD581200AFC158 /* ADModernPushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADModernPushTransition.m; sourceTree = "<group>"; };
+		8A6E7FAB18FD581200AFC158 /* ADNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		8A6E7FAC18FD581200AFC158 /* ADNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		8A6E7FAD18FD581200AFC158 /* ADPushRotateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPushRotateTransition.h; sourceTree = "<group>"; };
+		8A6E7FAE18FD581200AFC158 /* ADPushRotateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPushRotateTransition.m; sourceTree = "<group>"; };
+		8A6E7FAF18FD581200AFC158 /* ADScaleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADScaleTransition.h; sourceTree = "<group>"; };
+		8A6E7FB018FD581200AFC158 /* ADScaleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADScaleTransition.m; sourceTree = "<group>"; };
+		8A6E7FB118FD581200AFC158 /* ADSlideTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSlideTransition.h; sourceTree = "<group>"; };
+		8A6E7FB218FD581200AFC158 /* ADSlideTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSlideTransition.m; sourceTree = "<group>"; };
+		8A6E7FB318FD581200AFC158 /* ADSwapTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSwapTransition.h; sourceTree = "<group>"; };
+		8A6E7FB418FD581200AFC158 /* ADSwapTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSwapTransition.m; sourceTree = "<group>"; };
+		8A6E7FB518FD581200AFC158 /* ADSwipeFadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSwipeFadeTransition.h; sourceTree = "<group>"; };
+		8A6E7FB618FD581200AFC158 /* ADSwipeFadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSwipeFadeTransition.m; sourceTree = "<group>"; };
+		8A6E7FB718FD581200AFC158 /* ADSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSwipeTransition.h; sourceTree = "<group>"; };
+		8A6E7FB818FD581200AFC158 /* ADSwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSwipeTransition.m; sourceTree = "<group>"; };
+		8A6E7FB918FD581200AFC158 /* ADTransformTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTransformTransition.h; sourceTree = "<group>"; };
+		8A6E7FBA18FD581200AFC158 /* ADTransformTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTransformTransition.m; sourceTree = "<group>"; };
+		8A6E7FBB18FD581200AFC158 /* ADTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTransition.h; sourceTree = "<group>"; };
+		8A6E7FBC18FD581200AFC158 /* ADTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTransition.m; sourceTree = "<group>"; };
+		8A6E7FBD18FD581200AFC158 /* ADTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTransitionController.h; sourceTree = "<group>"; };
+		8A6E7FBE18FD581200AFC158 /* ADTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTransitionController.m; sourceTree = "<group>"; };
+		8A6E7FBF18FD581200AFC158 /* ADTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTransitioningDelegate.h; sourceTree = "<group>"; };
+		8A6E7FC018FD581200AFC158 /* ADTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTransitioningDelegate.m; sourceTree = "<group>"; };
+		8A6E7FC118FD581200AFC158 /* ADTransitioningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTransitioningViewController.h; sourceTree = "<group>"; };
+		8A6E7FC218FD581200AFC158 /* ADTransitioningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTransitioningViewController.m; sourceTree = "<group>"; };
+		8A6E7FC318FD581200AFC158 /* ADZoomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADZoomTransition.h; sourceTree = "<group>"; };
+		8A6E7FC418FD581200AFC158 /* ADZoomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADZoomTransition.m; sourceTree = "<group>"; };
+		8A6E7FC518FD581200AFC158 /* UIViewController+ADTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ADTransitionController.h"; sourceTree = "<group>"; };
+		8A6E7FC618FD581200AFC158 /* UIViewController+ADTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ADTransitionController.m"; sourceTree = "<group>"; };
+		8A6E7FEF18FE272E00AFC158 /* KWTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTransition.h; sourceTree = "<group>"; };
+		8A6E7FF018FE272E00AFC158 /* KWTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTransition.m; sourceTree = "<group>"; };
+		8A6E803918FE290E00AFC158 /* KWTransitionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTransitionHelper.h; sourceTree = "<group>"; };
+		8A6E803A18FE290E00AFC158 /* KWTransitionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTransitionHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A11EBEF18CCFBDB00B77081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A11EBF818CCFBDB00B77081 /* CoreGraphics.framework in Frameworks */,
+				8A11EBFA18CCFBDB00B77081 /* UIKit.framework in Frameworks */,
+				8A11EBF618CCFBDB00B77081 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A11EC1318CCFBDC00B77081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A11EC1818CCFBDC00B77081 /* XCTest.framework in Frameworks */,
+				8A11EC1A18CCFBDC00B77081 /* UIKit.framework in Frameworks */,
+				8A11EC1918CCFBDC00B77081 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A11EBE918CCFBDB00B77081 = {
+			isa = PBXGroup;
+			children = (
+				8A11EC3018CCFCA100B77081 /* AnimatedTransitionings */,
+				8A11EBFB18CCFBDC00B77081 /* TTMAnimatedTransitionGallery */,
+				8A11EBFC18CCFBDC00B77081 /* Supporting Files */,
+				8A11EC1D18CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests */,
+				8A11EBF418CCFBDB00B77081 /* Frameworks */,
+				8A11EBF318CCFBDB00B77081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A11EBF318CCFBDB00B77081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A11EBF218CCFBDB00B77081 /* TTMAnimatedTransitionGallery.app */,
+				8A11EC1618CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A11EBF418CCFBDB00B77081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A11EBF518CCFBDB00B77081 /* Foundation.framework */,
+				8A11EBF718CCFBDB00B77081 /* CoreGraphics.framework */,
+				8A11EBF918CCFBDB00B77081 /* UIKit.framework */,
+				8A11EC1718CCFBDC00B77081 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A11EBFB18CCFBDC00B77081 /* TTMAnimatedTransitionGallery */ = {
+			isa = PBXGroup;
+			children = (
+				8A11EC0418CCFBDC00B77081 /* TTMAppDelegate.h */,
+				8A11EC0518CCFBDC00B77081 /* TTMAppDelegate.m */,
+				8A11EC0718CCFBDC00B77081 /* Main.storyboard */,
+				8A11EC0A18CCFBDC00B77081 /* TTMMasterViewController.h */,
+				8A11EC0B18CCFBDC00B77081 /* TTMMasterViewController.m */,
+				8A11EC0D18CCFBDC00B77081 /* TTMDetailViewController.h */,
+				8A11EC0E18CCFBDC00B77081 /* TTMDetailViewController.m */,
+				8A6E803918FE290E00AFC158 /* KWTransitionHelper.h */,
+				8A6E803A18FE290E00AFC158 /* KWTransitionHelper.m */,
+				8A11EC1018CCFBDC00B77081 /* Images.xcassets */,
+			);
+			path = TTMAnimatedTransitionGallery;
+			sourceTree = "<group>";
+		};
+		8A11EBFC18CCFBDC00B77081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A11EBFD18CCFBDC00B77081 /* TTMAnimatedTransitionGallery-Info.plist */,
+				8A11EBFE18CCFBDC00B77081 /* InfoPlist.strings */,
+				8A11EC0118CCFBDC00B77081 /* main.m */,
+				8A11EC0318CCFBDC00B77081 /* TTMAnimatedTransitionGallery-Prefix.pch */,
+				8A15FFF719F332CF00914B6E /* Launch Screen.xib */,
+			);
+			name = "Supporting Files";
+			path = TTMAnimatedTransitionGallery;
+			sourceTree = "<group>";
+		};
+		8A11EC1D18CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A11EC2318CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests.m */,
+				8A11EC1E18CCFBDC00B77081 /* Supporting Files */,
+			);
+			path = TTMAnimatedTransitionGalleryTests;
+			sourceTree = "<group>";
+		};
+		8A11EC1E18CCFBDC00B77081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A11EC1F18CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests-Info.plist */,
+				8A11EC2018CCFBDC00B77081 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A11EC3018CCFCA100B77081 /* AnimatedTransitionings */ = {
+			isa = PBXGroup;
+			children = (
+				8A15464018FE4F0100BD36DF /* huldun/Transitions */,
+				8A15461A18FE4C9800BD36DF /* CustomTransitions */,
+				8A15460D18FE495B00BD36DF /* DMCustomTransitions */,
+				8A6E7FED18FE272E00AFC158 /* KWTransition */,
+				8A6E7F9418FD581200AFC158 /* ADTransitionController */,
+				8A6E7F2918FD394000AFC158 /* VCTransitionsLibrary */,
+				8A6E7F2518FD374700AFC158 /* LCZoomTransition */,
+				8A6E7F1218FD2B5A00AFC158 /* ATCAnimatedTransitions */,
+				8A11EC3E18CCFCDD00B77081 /* ZBCustomTransitions */,
+				8A11EC3118CCFCC000B77081 /* HUAnimator */,
+			);
+			name = AnimatedTransitionings;
+			sourceTree = "<group>";
+		};
+		8A11EC3118CCFCC000B77081 /* HUAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				8A11EC3218CCFCC000B77081 /* HUTransitionAnimator.h */,
+				8A11EC3318CCFCC000B77081 /* HUTransitionAnimator.m */,
+				8A11EC3418CCFCC000B77081 /* HUTransitionGhostAnimator.h */,
+				8A11EC3518CCFCC000B77081 /* HUTransitionGhostAnimator.m */,
+				8A11EC3618CCFCC000B77081 /* HUTransitionHorizontalLinesAnimator.h */,
+				8A11EC3718CCFCC000B77081 /* HUTransitionHorizontalLinesAnimator.m */,
+				8A11EC3818CCFCC000B77081 /* HUTransitionVerticalLinesAnimator.h */,
+				8A11EC3918CCFCC000B77081 /* HUTransitionVerticalLinesAnimator.m */,
+			);
+			name = HUAnimator;
+			path = ../submodules/HUAnimator/HUAnimator;
+			sourceTree = "<group>";
+		};
+		8A11EC3E18CCFCDD00B77081 /* ZBCustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				8A11EC4518CCFCDD00B77081 /* UIViewController+Animator.h */,
+				8A11EC4618CCFCDD00B77081 /* UIViewController+Animator.m */,
+				8A11EC4D18CCFCDD00B77081 /* ZBFallenBricksAnimator.h */,
+				8A11EC4E18CCFCDD00B77081 /* ZBFallenBricksAnimator.m */,
+			);
+			name = ZBCustomTransitions;
+			path = ../submodules/ZBCustomTransitions/ZBCustomTransitions;
+			sourceTree = "<group>";
+		};
+		8A15460D18FE495B00BD36DF /* DMCustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				8A15460E18FE495B00BD36DF /* DMAlphaTransition.h */,
+				8A15460F18FE495B00BD36DF /* DMAlphaTransition.m */,
+				8A15461018FE495B00BD36DF /* DMBaseTransition.h */,
+				8A15461118FE495B00BD36DF /* DMBaseTransition.m */,
+				8A15461218FE495B00BD36DF /* DMScaleTransition.h */,
+				8A15461318FE495B00BD36DF /* DMScaleTransition.m */,
+				8A15461418FE495B00BD36DF /* DMSlideTransition.h */,
+				8A15461518FE495B00BD36DF /* DMSlideTransition.m */,
+			);
+			name = DMCustomTransitions;
+			path = ../submodules/DMCustomTransitions/Transitions;
+			sourceTree = "<group>";
+		};
+		8A15461A18FE4C9800BD36DF /* CustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				8A15462118FE4C9800BD36DF /* HFAnimator.h */,
+				8A15462218FE4C9800BD36DF /* HFAnimator.m */,
+				8A15462518FE4C9800BD36DF /* HFDynamicAnimator.h */,
+				8A15462618FE4C9800BD36DF /* HFDynamicAnimator.m */,
+			);
+			name = CustomTransitions;
+			path = ../submodules/CustomTransitions/CustomAnimations;
+			sourceTree = "<group>";
+		};
+		8A15464018FE4F0100BD36DF /* huldun/Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				8A15464718FE4F0100BD36DF /* BouncePresentTransition.h */,
+				8A15464818FE4F0100BD36DF /* BouncePresentTransition.m */,
+				8A15465318FE4F0100BD36DF /* FlipTransition.h */,
+				8A15465418FE4F0100BD36DF /* FlipTransition.m */,
+				8A15465718FE4F0100BD36DF /* ShrinkDismissTransition.h */,
+				8A15465818FE4F0100BD36DF /* ShrinkDismissTransition.m */,
+			);
+			name = huldun/Transitions;
+			path = ../submodules/haldun_Transitions/Transitions;
+			sourceTree = "<group>";
+		};
+		8A6E7F1218FD2B5A00AFC158 /* ATCAnimatedTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E7F1318FD2B5A00AFC158 /* ATCAnimatedTransitioning.h */,
+				8A6E7F1418FD2B5A00AFC158 /* ATCAnimatedTransitioning.m */,
+				8A6E7F1518FD2B5A00AFC158 /* ATCAnimatedTransitioningBounce.h */,
+				8A6E7F1618FD2B5A00AFC158 /* ATCAnimatedTransitioningBounce.m */,
+				8A6E7F1718FD2B5A00AFC158 /* ATCAnimatedTransitioningFade.h */,
+				8A6E7F1818FD2B5A00AFC158 /* ATCAnimatedTransitioningFade.m */,
+				8A6E7F1918FD2B5A00AFC158 /* ATCAnimatedTransitioningFloat.h */,
+				8A6E7F1A18FD2B5A00AFC158 /* ATCAnimatedTransitioningFloat.m */,
+				8A6E7F1B18FD2B5A00AFC158 /* ATCAnimatedTransitioningSquish.h */,
+				8A6E7F1C18FD2B5A00AFC158 /* ATCAnimatedTransitioningSquish.m */,
+				8A6E7F1D18FD2B5A00AFC158 /* ATCTransitioningDelegate.h */,
+				8A6E7F1E18FD2B5A00AFC158 /* ATCTransitioningDelegate.m */,
+			);
+			name = ATCAnimatedTransitions;
+			path = "../submodules/Animated-Transition-Collection/Source";
+			sourceTree = "<group>";
+		};
+		8A6E7F2518FD374700AFC158 /* LCZoomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E7F2618FD374700AFC158 /* LCZoomTransition.h */,
+				8A6E7F2718FD374700AFC158 /* LCZoomTransition.m */,
+			);
+			name = LCZoomTransition;
+			path = ../submodules/LCZoomTransition/LCZoomTransition;
+			sourceTree = "<group>";
+		};
+		8A6E7F2918FD394000AFC158 /* VCTransitionsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E7F2A18FD394000AFC158 /* CECardsAnimationController.h */,
+				8A6E7F2B18FD394000AFC158 /* CECardsAnimationController.m */,
+				8A6E7F2C18FD394000AFC158 /* CECrossfadeAnimationController.h */,
+				8A6E7F2D18FD394000AFC158 /* CECrossfadeAnimationController.m */,
+				8A6E7F2E18FD394000AFC158 /* CECubeAnimationController.h */,
+				8A6E7F2F18FD394000AFC158 /* CECubeAnimationController.m */,
+				8A6E7F3018FD394000AFC158 /* CEExplodeAnimationController.h */,
+				8A6E7F3118FD394000AFC158 /* CEExplodeAnimationController.m */,
+				8A6E7F3218FD394000AFC158 /* CEFlipAnimationController.h */,
+				8A6E7F3318FD394000AFC158 /* CEFlipAnimationController.m */,
+				8A6E7F3418FD394000AFC158 /* CEFoldAnimationController.h */,
+				8A6E7F3518FD394000AFC158 /* CEFoldAnimationController.m */,
+				8A6E7F3618FD394000AFC158 /* CENatGeoAnimationController.h */,
+				8A6E7F3718FD394000AFC158 /* CENatGeoAnimationController.m */,
+				8A6E7F3818FD394000AFC158 /* CEPortalAnimationController.h */,
+				8A6E7F3918FD394000AFC158 /* CEPortalAnimationController.m */,
+				8A6E7F3A18FD394000AFC158 /* CEReversibleAnimationController.h */,
+				8A6E7F3B18FD394000AFC158 /* CEReversibleAnimationController.m */,
+				8A6E7F3C18FD394000AFC158 /* CETurnAnimationController.h */,
+				8A6E7F3D18FD394000AFC158 /* CETurnAnimationController.m */,
+			);
+			name = VCTransitionsLibrary;
+			path = ../submodules/VCTransitionsLibrary/AnimationControllers;
+			sourceTree = "<group>";
+		};
+		8A6E7F9418FD581200AFC158 /* ADTransitionController */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E7F9518FD581200AFC158 /* ADBackFadeTransition.h */,
+				8A6E7F9618FD581200AFC158 /* ADBackFadeTransition.m */,
+				8A6E7F9718FD581200AFC158 /* ADCarrouselTransition.h */,
+				8A6E7F9818FD581200AFC158 /* ADCarrouselTransition.m */,
+				8A6E7F9918FD581200AFC158 /* ADCrossTransition.h */,
+				8A6E7F9A18FD581200AFC158 /* ADCrossTransition.m */,
+				8A6E7F9B18FD581200AFC158 /* ADCubeTransition.h */,
+				8A6E7F9C18FD581200AFC158 /* ADCubeTransition.m */,
+				8A6E7F9D18FD581200AFC158 /* ADDualTransition.h */,
+				8A6E7F9E18FD581200AFC158 /* ADDualTransition.m */,
+				8A6E7F9F18FD581200AFC158 /* ADFadeTransition.h */,
+				8A6E7FA018FD581200AFC158 /* ADFadeTransition.m */,
+				8A6E7FA118FD581200AFC158 /* ADFlipTransition.h */,
+				8A6E7FA218FD581200AFC158 /* ADFlipTransition.m */,
+				8A6E7FA318FD581200AFC158 /* ADFoldTransition.h */,
+				8A6E7FA418FD581200AFC158 /* ADFoldTransition.m */,
+				8A6E7FA518FD581200AFC158 /* ADGhostTransition.h */,
+				8A6E7FA618FD581200AFC158 /* ADGhostTransition.m */,
+				8A6E7FA718FD581200AFC158 /* ADGlueTransition.h */,
+				8A6E7FA818FD581200AFC158 /* ADGlueTransition.m */,
+				8A6E7FA918FD581200AFC158 /* ADModernPushTransition.h */,
+				8A6E7FAA18FD581200AFC158 /* ADModernPushTransition.m */,
+				8A6E7FAB18FD581200AFC158 /* ADNavigationControllerDelegate.h */,
+				8A6E7FAC18FD581200AFC158 /* ADNavigationControllerDelegate.m */,
+				8A6E7FAD18FD581200AFC158 /* ADPushRotateTransition.h */,
+				8A6E7FAE18FD581200AFC158 /* ADPushRotateTransition.m */,
+				8A6E7FAF18FD581200AFC158 /* ADScaleTransition.h */,
+				8A6E7FB018FD581200AFC158 /* ADScaleTransition.m */,
+				8A6E7FB118FD581200AFC158 /* ADSlideTransition.h */,
+				8A6E7FB218FD581200AFC158 /* ADSlideTransition.m */,
+				8A6E7FB318FD581200AFC158 /* ADSwapTransition.h */,
+				8A6E7FB418FD581200AFC158 /* ADSwapTransition.m */,
+				8A6E7FB518FD581200AFC158 /* ADSwipeFadeTransition.h */,
+				8A6E7FB618FD581200AFC158 /* ADSwipeFadeTransition.m */,
+				8A6E7FB718FD581200AFC158 /* ADSwipeTransition.h */,
+				8A6E7FB818FD581200AFC158 /* ADSwipeTransition.m */,
+				8A6E7FB918FD581200AFC158 /* ADTransformTransition.h */,
+				8A6E7FBA18FD581200AFC158 /* ADTransformTransition.m */,
+				8A6E7FBB18FD581200AFC158 /* ADTransition.h */,
+				8A6E7FBC18FD581200AFC158 /* ADTransition.m */,
+				8A6E7FBD18FD581200AFC158 /* ADTransitionController.h */,
+				8A6E7FBE18FD581200AFC158 /* ADTransitionController.m */,
+				8A6E7FBF18FD581200AFC158 /* ADTransitioningDelegate.h */,
+				8A6E7FC018FD581200AFC158 /* ADTransitioningDelegate.m */,
+				8A6E7FC118FD581200AFC158 /* ADTransitioningViewController.h */,
+				8A6E7FC218FD581200AFC158 /* ADTransitioningViewController.m */,
+				8A6E7FC318FD581200AFC158 /* ADZoomTransition.h */,
+				8A6E7FC418FD581200AFC158 /* ADZoomTransition.m */,
+				8A6E7FC518FD581200AFC158 /* UIViewController+ADTransitionController.h */,
+				8A6E7FC618FD581200AFC158 /* UIViewController+ADTransitionController.m */,
+			);
+			name = ADTransitionController;
+			path = ../submodules/ADTransitionController/ADTransitionController;
+			sourceTree = "<group>";
+		};
+		8A6E7FED18FE272E00AFC158 /* KWTransition */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E7FEF18FE272E00AFC158 /* KWTransition.h */,
+				8A6E7FF018FE272E00AFC158 /* KWTransition.m */,
+			);
+			name = KWTransition;
+			path = ../submodules/KWTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A11EBF118CCFBDB00B77081 /* TTMAnimatedTransitionGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A11EC2718CCFBDC00B77081 /* Build configuration list for PBXNativeTarget "TTMAnimatedTransitionGallery" */;
+			buildPhases = (
+				8A11EBEE18CCFBDB00B77081 /* Sources */,
+				8A11EBEF18CCFBDB00B77081 /* Frameworks */,
+				8A11EBF018CCFBDB00B77081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTMAnimatedTransitionGallery;
+			productName = TTMAnimatedTransitionGallery;
+			productReference = 8A11EBF218CCFBDB00B77081 /* TTMAnimatedTransitionGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A11EC1518CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A11EC2A18CCFBDC00B77081 /* Build configuration list for PBXNativeTarget "TTMAnimatedTransitionGalleryTests" */;
+			buildPhases = (
+				8A11EC1218CCFBDC00B77081 /* Sources */,
+				8A11EC1318CCFBDC00B77081 /* Frameworks */,
+				8A11EC1418CCFBDC00B77081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A11EC1C18CCFBDC00B77081 /* PBXTargetDependency */,
+			);
+			name = TTMAnimatedTransitionGalleryTests;
+			productName = TTMAnimatedTransitionGalleryTests;
+			productReference = 8A11EC1618CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A11EBEA18CCFBDB00B77081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shuichi Tsutsumi";
+				TargetAttributes = {
+					8A11EC1518CCFBDC00B77081 = {
+						TestTargetID = 8A11EBF118CCFBDB00B77081;
+					};
+				};
+			};
+			buildConfigurationList = 8A11EBED18CCFBDB00B77081 /* Build configuration list for PBXProject "TTMAnimatedTransitionGallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A11EBE918CCFBDB00B77081;
+			productRefGroup = 8A11EBF318CCFBDB00B77081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A11EBF118CCFBDB00B77081 /* TTMAnimatedTransitionGallery */,
+				8A11EC1518CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A11EBF018CCFBDB00B77081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A11EC1118CCFBDC00B77081 /* Images.xcassets in Resources */,
+				8A15FFF819F332CF00914B6E /* Launch Screen.xib in Resources */,
+				8A11EC0018CCFBDC00B77081 /* InfoPlist.strings in Resources */,
+				8A11EC0918CCFBDC00B77081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A11EC1418CCFBDC00B77081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A11EC2218CCFBDC00B77081 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A11EBEE18CCFBDB00B77081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6E7F4518FD394000AFC158 /* CEPortalAnimationController.m in Sources */,
+				8A11EC3C18CCFCC000B77081 /* HUTransitionHorizontalLinesAnimator.m in Sources */,
+				8A6E7FCE18FD581200AFC158 /* ADFoldTransition.m in Sources */,
+				8A15466618FE4F0100BD36DF /* FlipTransition.m in Sources */,
+				8A6E7F2418FD2B5A00AFC158 /* ATCTransitioningDelegate.m in Sources */,
+				8A6E7FC718FD581200AFC158 /* ADBackFadeTransition.m in Sources */,
+				8A6E7FDD18FD581200AFC158 /* ADTransitioningViewController.m in Sources */,
+				8A6E7FCD18FD581200AFC158 /* ADFlipTransition.m in Sources */,
+				8A6E7F4718FD394000AFC158 /* CETurnAnimationController.m in Sources */,
+				8A6E7FC918FD581200AFC158 /* ADCrossTransition.m in Sources */,
+				8A11EC3A18CCFCC000B77081 /* HUTransitionAnimator.m in Sources */,
+				8A15463018FE4C9800BD36DF /* HFAnimator.m in Sources */,
+				8A6E7F2218FD2B5A00AFC158 /* ATCAnimatedTransitioningFloat.m in Sources */,
+				8A11EC5518CCFCDD00B77081 /* UIViewController+Animator.m in Sources */,
+				8A6E801918FE272E00AFC158 /* KWTransition.m in Sources */,
+				8A6E7F2818FD374700AFC158 /* LCZoomTransition.m in Sources */,
+				8A6E7FD518FD581200AFC158 /* ADSlideTransition.m in Sources */,
+				8A6E7F3F18FD394000AFC158 /* CECrossfadeAnimationController.m in Sources */,
+				8A6E7FC818FD581200AFC158 /* ADCarrouselTransition.m in Sources */,
+				8A6E7FD418FD581200AFC158 /* ADScaleTransition.m in Sources */,
+				8A6E7FD718FD581200AFC158 /* ADSwipeFadeTransition.m in Sources */,
+				8A15466918FE4F0100BD36DF /* ShrinkDismissTransition.m in Sources */,
+				8A6E7FD618FD581200AFC158 /* ADSwapTransition.m in Sources */,
+				8A6E7FDB18FD581200AFC158 /* ADTransitionController.m in Sources */,
+				8A6E7F2318FD2B5A00AFC158 /* ATCAnimatedTransitioningSquish.m in Sources */,
+				8A11EC5918CCFCDD00B77081 /* ZBFallenBricksAnimator.m in Sources */,
+				8A6E7FD818FD581200AFC158 /* ADSwipeTransition.m in Sources */,
+				8A6E7F2118FD2B5A00AFC158 /* ATCAnimatedTransitioningFade.m in Sources */,
+				8A6E7FD118FD581200AFC158 /* ADModernPushTransition.m in Sources */,
+				8A6E7FD918FD581200AFC158 /* ADTransformTransition.m in Sources */,
+				8A6E7F4318FD394000AFC158 /* CEFoldAnimationController.m in Sources */,
+				8A6E7FDA18FD581200AFC158 /* ADTransition.m in Sources */,
+				8A11EC0618CCFBDC00B77081 /* TTMAppDelegate.m in Sources */,
+				8A11EC3D18CCFCC000B77081 /* HUTransitionVerticalLinesAnimator.m in Sources */,
+				8A6E7F2018FD2B5A00AFC158 /* ATCAnimatedTransitioningBounce.m in Sources */,
+				8A6E7F4218FD394000AFC158 /* CEFlipAnimationController.m in Sources */,
+				8A15461618FE495B00BD36DF /* DMAlphaTransition.m in Sources */,
+				8A6E7F4018FD394000AFC158 /* CECubeAnimationController.m in Sources */,
+				8A6E7F4118FD394000AFC158 /* CEExplodeAnimationController.m in Sources */,
+				8A11EC0218CCFBDC00B77081 /* main.m in Sources */,
+				8A6E7FDC18FD581200AFC158 /* ADTransitioningDelegate.m in Sources */,
+				8A6E7F4618FD394000AFC158 /* CEReversibleAnimationController.m in Sources */,
+				8A6E7F4418FD394000AFC158 /* CENatGeoAnimationController.m in Sources */,
+				8A15463218FE4C9800BD36DF /* HFDynamicAnimator.m in Sources */,
+				8A11EC0C18CCFBDC00B77081 /* TTMMasterViewController.m in Sources */,
+				8A6E7FCF18FD581200AFC158 /* ADGhostTransition.m in Sources */,
+				8A6E7F3E18FD394000AFC158 /* CECardsAnimationController.m in Sources */,
+				8A6E7FCA18FD581200AFC158 /* ADCubeTransition.m in Sources */,
+				8A6E7FD318FD581200AFC158 /* ADPushRotateTransition.m in Sources */,
+				8A15461818FE495B00BD36DF /* DMScaleTransition.m in Sources */,
+				8A6E7FDF18FD581200AFC158 /* UIViewController+ADTransitionController.m in Sources */,
+				8A6E7FD018FD581200AFC158 /* ADGlueTransition.m in Sources */,
+				8A15466018FE4F0100BD36DF /* BouncePresentTransition.m in Sources */,
+				8A6E7FCC18FD581200AFC158 /* ADFadeTransition.m in Sources */,
+				8A6E7FDE18FD581200AFC158 /* ADZoomTransition.m in Sources */,
+				8A6E7F1F18FD2B5A00AFC158 /* ATCAnimatedTransitioning.m in Sources */,
+				8A11EC0F18CCFBDC00B77081 /* TTMDetailViewController.m in Sources */,
+				8A6E7FCB18FD581200AFC158 /* ADDualTransition.m in Sources */,
+				8A15461718FE495B00BD36DF /* DMBaseTransition.m in Sources */,
+				8A6E7FD218FD581200AFC158 /* ADNavigationControllerDelegate.m in Sources */,
+				8A6E803B18FE290E00AFC158 /* KWTransitionHelper.m in Sources */,
+				8A11EC3B18CCFCC000B77081 /* HUTransitionGhostAnimator.m in Sources */,
+				8A15461918FE495B00BD36DF /* DMSlideTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A11EC1218CCFBDC00B77081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A11EC2418CCFBDC00B77081 /* TTMAnimatedTransitionGalleryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A11EC1C18CCFBDC00B77081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A11EBF118CCFBDB00B77081 /* TTMAnimatedTransitionGallery */;
+			targetProxy = 8A11EC1B18CCFBDC00B77081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A11EBFE18CCFBDC00B77081 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A11EBFF18CCFBDC00B77081 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A11EC0718CCFBDC00B77081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A11EC0818CCFBDC00B77081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A11EC2018CCFBDC00B77081 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A11EC2118CCFBDC00B77081 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A11EC2518CCFBDC00B77081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A11EC2618CCFBDC00B77081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A11EC2818CCFBDC00B77081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTMAnimatedTransitionGallery/TTMAnimatedTransitionGallery-Prefix.pch";
+				INFOPLIST_FILE = "TTMAnimatedTransitionGallery/TTMAnimatedTransitionGallery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A11EC2918CCFBDC00B77081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTMAnimatedTransitionGallery/TTMAnimatedTransitionGallery-Prefix.pch";
+				INFOPLIST_FILE = "TTMAnimatedTransitionGallery/TTMAnimatedTransitionGallery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A11EC2B18CCFBDC00B77081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTMAnimatedTransitionGallery.app/TTMAnimatedTransitionGallery";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTMAnimatedTransitionGallery/TTMAnimatedTransitionGallery-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TTMAnimatedTransitionGalleryTests/TTMAnimatedTransitionGalleryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8A11EC2C18CCFBDC00B77081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTMAnimatedTransitionGallery.app/TTMAnimatedTransitionGallery";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTMAnimatedTransitionGallery/TTMAnimatedTransitionGallery-Prefix.pch";
+				INFOPLIST_FILE = "TTMAnimatedTransitionGalleryTests/TTMAnimatedTransitionGalleryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A11EBED18CCFBDB00B77081 /* Build configuration list for PBXProject "TTMAnimatedTransitionGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A11EC2518CCFBDC00B77081 /* Debug */,
+				8A11EC2618CCFBDC00B77081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A11EC2718CCFBDC00B77081 /* Build configuration list for PBXNativeTarget "TTMAnimatedTransitionGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A11EC2818CCFBDC00B77081 /* Debug */,
+				8A11EC2918CCFBDC00B77081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A11EC2A18CCFBDC00B77081 /* Build configuration list for PBXNativeTarget "TTMAnimatedTransitionGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A11EC2B18CCFBDC00B77081 /* Debug */,
+				8A11EC2C18CCFBDC00B77081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A11EBEA18CCFBDB00B77081 /* Project object */;
+}

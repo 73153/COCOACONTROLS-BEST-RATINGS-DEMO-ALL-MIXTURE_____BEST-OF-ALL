@@ -1,0 +1,39 @@
+This is a fully customizable control to select data in a list (i.e. Telephone numbers) like the Whatsapp application. Supports multiselection + English and Spanish. It's Easy to use and customizable.
+
+Example:
+
+<pre>
+
+    SMContactsSelector *controller = [[SMContactsSelector alloc] initWithNibName:@"SMContactsSelector" bundle:nil];
+    controller.delegate = self;
+
+    // Select your returned data type
+    controller.requestData = DATA_CONTACT_ID; //DATA_CONTACT_EMAIL , DATA_CONTACT_TELEPHONE
+    
+    // Set your contact list setting record ids (optional)
+    controller.recordIDs = [NSArray arrayWithObjects:@"1", @"2", nil];
+    
+    //Window show in Modal or not
+    controller.showModal = YES; //Mandatory: YES or NO
+    //Show tick or not
+    controller.showCheckButton = YES; //Mandatory: YES or NO
+    [self presentModalViewController:controller animated:YES];
+    [controller release];
+
+</pre>
+
+This control implements one delegate methods:
+
+<pre>
+
+- (void)numberOfRowsSelected:(NSInteger)numberRows withData:(NSArray *)data andDataType:(DATA_CONTACT)type;
+
+</pre>
+
+Loop over delegate method to parse each kind of data.
+
+ * iOS6 privacy setting ready
+ * Updated to iOS7
+
+
+TODO : Fix landscape bounds for iOS7 message view.

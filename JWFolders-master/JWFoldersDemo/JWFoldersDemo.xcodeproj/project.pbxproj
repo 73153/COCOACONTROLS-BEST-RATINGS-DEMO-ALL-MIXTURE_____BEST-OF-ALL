@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2CB9BC14AE8CF30072F455 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2CB9BB14AE8CF30072F455 /* UIKit.framework */; };
+		AB2CB9BE14AE8CF30072F455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2CB9BD14AE8CF30072F455 /* Foundation.framework */; };
+		AB2CB9C014AE8CF30072F455 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2CB9BF14AE8CF30072F455 /* CoreGraphics.framework */; };
+		AB2CB9C614AE8CF30072F455 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB2CB9C414AE8CF30072F455 /* InfoPlist.strings */; };
+		AB2CB9C814AE8CF30072F455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2CB9C714AE8CF30072F455 /* main.m */; };
+		AB2CB9CC14AE8CF30072F455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2CB9CB14AE8CF30072F455 /* AppDelegate.m */; };
+		AB2CB9CF14AE8CF30072F455 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2CB9CE14AE8CF30072F455 /* ViewController.m */; };
+		AB2CB9D214AE8CF30072F455 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2CB9D014AE8CF30072F455 /* ViewController.xib */; };
+		AB2CB9DF14AE8D3D0072F455 /* FolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2CB9DD14AE8D3D0072F455 /* FolderViewController.m */; };
+		AB2CB9E014AE8D3D0072F455 /* FolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2CB9DE14AE8D3D0072F455 /* FolderViewController.xib */; };
+		AB2CB9F314AE8DAB0072F455 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2CB9F114AE8DA30072F455 /* QuartzCore.framework */; };
+		AB55EC6214BE09D400FB5BB0 /* wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = AB55EC6114BE09D400FB5BB0 /* wallpaper.png */; };
+		AB9280CA14AF8BC5000578BD /* JWFolders.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9280C514AF8BC5000578BD /* JWFolders.m */; };
+		AB9280CC14AF8BC5000578BD /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9280C914AF8BC5000578BD /* UIView+Screenshot.m */; };
+		ABC282A615DCBAF9005801FB /* JWFolders.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ABC282A515DCBAF9005801FB /* JWFolders.bundle */; };
+		ABF7821314BCED8B0026C74B /* noise.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF7821214BCED8B0026C74B /* noise.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB2CB9B714AE8CF30072F455 /* JWFoldersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWFoldersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2CB9BB14AE8CF30072F455 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB2CB9BD14AE8CF30072F455 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB2CB9BF14AE8CF30072F455 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB2CB9C314AE8CF30072F455 /* JWFoldersDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWFoldersDemo-Info.plist"; sourceTree = "<group>"; };
+		AB2CB9C514AE8CF30072F455 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB2CB9C714AE8CF30072F455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB2CB9C914AE8CF30072F455 /* JWFoldersDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWFoldersDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AB2CB9CA14AE8CF30072F455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB2CB9CB14AE8CF30072F455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB2CB9CD14AE8CF30072F455 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB2CB9CE14AE8CF30072F455 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB2CB9D114AE8CF30072F455 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AB2CB9DC14AE8D3C0072F455 /* FolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderViewController.h; sourceTree = "<group>"; };
+		AB2CB9DD14AE8D3D0072F455 /* FolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderViewController.m; sourceTree = "<group>"; };
+		AB2CB9DE14AE8D3D0072F455 /* FolderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FolderViewController.xib; sourceTree = "<group>"; };
+		AB2CB9F114AE8DA30072F455 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB55EC6114BE09D400FB5BB0 /* wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper.png; sourceTree = "<group>"; };
+		AB9280C414AF8BC5000578BD /* JWFolders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWFolders.h; sourceTree = "<group>"; };
+		AB9280C514AF8BC5000578BD /* JWFolders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWFolders.m; sourceTree = "<group>"; };
+		AB9280C814AF8BC5000578BD /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		AB9280C914AF8BC5000578BD /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		ABAEBA451548E7F80024A279 /* JWFoldersDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = JWFoldersDemo.entitlements; sourceTree = "<group>"; };
+		ABC282A515DCBAF9005801FB /* JWFolders.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JWFolders.bundle; sourceTree = "<group>"; };
+		ABF7821214BCED8B0026C74B /* noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2CB9B414AE8CF30072F455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2CB9F314AE8DAB0072F455 /* QuartzCore.framework in Frameworks */,
+				AB2CB9BC14AE8CF30072F455 /* UIKit.framework in Frameworks */,
+				AB2CB9BE14AE8CF30072F455 /* Foundation.framework in Frameworks */,
+				AB2CB9C014AE8CF30072F455 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB2CB9AC14AE8CF30072F455 = {
+			isa = PBXGroup;
+			children = (
+				AB2CB9C114AE8CF30072F455 /* JWFoldersDemo */,
+				AB2CB9BA14AE8CF30072F455 /* Frameworks */,
+				AB2CB9B814AE8CF30072F455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2CB9B814AE8CF30072F455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2CB9B714AE8CF30072F455 /* JWFoldersDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2CB9BA14AE8CF30072F455 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB2CB9F114AE8DA30072F455 /* QuartzCore.framework */,
+				AB2CB9BB14AE8CF30072F455 /* UIKit.framework */,
+				AB2CB9BD14AE8CF30072F455 /* Foundation.framework */,
+				AB2CB9BF14AE8CF30072F455 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB2CB9C114AE8CF30072F455 /* JWFoldersDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ABAEBA451548E7F80024A279 /* JWFoldersDemo.entitlements */,
+				AB2CB9CA14AE8CF30072F455 /* AppDelegate.h */,
+				AB2CB9CB14AE8CF30072F455 /* AppDelegate.m */,
+				AB2CB9CD14AE8CF30072F455 /* ViewController.h */,
+				AB2CB9CE14AE8CF30072F455 /* ViewController.m */,
+				AB2CB9D014AE8CF30072F455 /* ViewController.xib */,
+				AB2CB9DC14AE8D3C0072F455 /* FolderViewController.h */,
+				AB2CB9DD14AE8D3D0072F455 /* FolderViewController.m */,
+				AB2CB9DE14AE8D3D0072F455 /* FolderViewController.xib */,
+				AB9280C314AF8BC5000578BD /* JWFolders */,
+				AB2CB9C214AE8CF30072F455 /* Supporting Files */,
+			);
+			path = JWFoldersDemo;
+			sourceTree = "<group>";
+		};
+		AB2CB9C214AE8CF30072F455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF7821214BCED8B0026C74B /* noise.png */,
+				AB55EC6114BE09D400FB5BB0 /* wallpaper.png */,
+				AB2CB9C314AE8CF30072F455 /* JWFoldersDemo-Info.plist */,
+				AB2CB9C414AE8CF30072F455 /* InfoPlist.strings */,
+				AB2CB9C714AE8CF30072F455 /* main.m */,
+				AB2CB9C914AE8CF30072F455 /* JWFoldersDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB9280C314AF8BC5000578BD /* JWFolders */ = {
+			isa = PBXGroup;
+			children = (
+				AB9280C414AF8BC5000578BD /* JWFolders.h */,
+				AB9280C514AF8BC5000578BD /* JWFolders.m */,
+				AB9280C814AF8BC5000578BD /* UIView+Screenshot.h */,
+				AB9280C914AF8BC5000578BD /* UIView+Screenshot.m */,
+				ABC282A515DCBAF9005801FB /* JWFolders.bundle */,
+			);
+			name = JWFolders;
+			path = ../../JWFolders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2CB9B614AE8CF30072F455 /* JWFoldersDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2CB9D514AE8CF30072F455 /* Build configuration list for PBXNativeTarget "JWFoldersDemo" */;
+			buildPhases = (
+				AB2CB9B314AE8CF30072F455 /* Sources */,
+				AB2CB9B414AE8CF30072F455 /* Frameworks */,
+				AB2CB9B514AE8CF30072F455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWFoldersDemo;
+			productName = JWFoldersDemo;
+			productReference = AB2CB9B714AE8CF30072F455 /* JWFoldersDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB2CB9AE14AE8CF30072F455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = AB2CB9B114AE8CF30072F455 /* Build configuration list for PBXProject "JWFoldersDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB2CB9AC14AE8CF30072F455;
+			productRefGroup = AB2CB9B814AE8CF30072F455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2CB9B614AE8CF30072F455 /* JWFoldersDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2CB9B514AE8CF30072F455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2CB9C614AE8CF30072F455 /* InfoPlist.strings in Resources */,
+				AB2CB9D214AE8CF30072F455 /* ViewController.xib in Resources */,
+				AB2CB9E014AE8D3D0072F455 /* FolderViewController.xib in Resources */,
+				ABF7821314BCED8B0026C74B /* noise.png in Resources */,
+				AB55EC6214BE09D400FB5BB0 /* wallpaper.png in Resources */,
+				ABC282A615DCBAF9005801FB /* JWFolders.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2CB9B314AE8CF30072F455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2CB9C814AE8CF30072F455 /* main.m in Sources */,
+				AB2CB9CC14AE8CF30072F455 /* AppDelegate.m in Sources */,
+				AB2CB9CF14AE8CF30072F455 /* ViewController.m in Sources */,
+				AB2CB9DF14AE8D3D0072F455 /* FolderViewController.m in Sources */,
+				AB9280CA14AF8BC5000578BD /* JWFolders.m in Sources */,
+				AB9280CC14AF8BC5000578BD /* UIView+Screenshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB2CB9C414AE8CF30072F455 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2CB9C514AE8CF30072F455 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB2CB9D014AE8CF30072F455 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2CB9D114AE8CF30072F455 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB2CB9D314AE8CF30072F455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB2CB9D414AE8CF30072F455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2CB9D614AE8CF30072F455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWFoldersDemo/JWFoldersDemo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "JWFoldersDemo/JWFoldersDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB2CB9D714AE8CF30072F455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWFoldersDemo/JWFoldersDemo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "JWFoldersDemo/JWFoldersDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB2CB9B114AE8CF30072F455 /* Build configuration list for PBXProject "JWFoldersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2CB9D314AE8CF30072F455 /* Debug */,
+				AB2CB9D414AE8CF30072F455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2CB9D514AE8CF30072F455 /* Build configuration list for PBXNativeTarget "JWFoldersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2CB9D614AE8CF30072F455 /* Debug */,
+				AB2CB9D714AE8CF30072F455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB2CB9AE14AE8CF30072F455 /* Project object */;
+}

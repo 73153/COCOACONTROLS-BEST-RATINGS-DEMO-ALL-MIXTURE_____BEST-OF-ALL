@@ -1,0 +1,11 @@
+# Compiled source #
+###################
+*.o
+*.so
+.DS_Store*
+build
+Build
+*.pbxuser
+xcuserdata
+Example/Pods/**/*
+

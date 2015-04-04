@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="mbQ-bf-1eT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Type1VC - Messaging-->
+        <scene sceneID="VHT-sg-Cx7">
+            <objects>
+                <viewController id="OS0-2n-Cis" customClass="Type1VC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jlr-9a-9BX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Messaging" id="WWh-vO-VFm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KWH-Tn-PUN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5" y="-760"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oCt-f9-xip">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="mbQ-bf-1eT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uGK-Ee-K0F">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="TLz-Tk-EsG" kind="relationship" relationship="rootViewController" id="yEn-Bo-A2Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aD3-AZ-Fj5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1267" y="374"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3br-nC-SoU">
+            <objects>
+                <viewController id="TLz-Tk-EsG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U7q-Vs-Ocw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CBx-YN-sdE">
+                                <rect key="frame" x="92" y="168" width="136" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Type 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OS0-2n-Cis" kind="push" id="ozH-H9-t2e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xnY-o3-zvu">
+                                <rect key="frame" x="92" y="233" width="136" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Type 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mRq-Nm-oLq" kind="push" id="kE2-si-zus"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jC0-to-Ovs">
+                                <rect key="frame" x="92" y="291" width="136" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Type 3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zhy-VN-k71" kind="push" id="17B-tk-JxH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PgF-ga-3ut">
+                                <rect key="frame" x="92" y="349" width="136" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Type 4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="o9o-Cr-tMa" kind="push" id="4Vb-zX-1wk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XZw-IS-ieF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DgU-ir-mMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-759" y="374"/>
+        </scene>
+        <!--Type2VC - Messaging-->
+        <scene sceneID="slJ-b3-MJV">
+            <objects>
+                <viewController id="mRq-Nm-oLq" customClass="Type2VC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Q7-zS-QIu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Messaging" id="Ybz-GW-VAc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2kJ-rC-amP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5" y="-10"/>
+        </scene>
+        <!--Type3VC - Messaging-->
+        <scene sceneID="gbx-Yu-aEw">
+            <objects>
+                <viewController id="zhy-VN-k71" customClass="Type3VC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pA3-zH-0uK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Messaging" id="WkR-rP-wuY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6MS-Jv-qkx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5" y="776"/>
+        </scene>
+        <!--Type4VC - Messaging-->
+        <scene sceneID="tlj-cC-WLV">
+            <objects>
+                <viewController id="o9o-Cr-tMa" customClass="Type4VC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dgQ-XS-tzl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Messaging" id="Yq5-Ss-arI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X0Q-ko-euE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5" y="1540"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

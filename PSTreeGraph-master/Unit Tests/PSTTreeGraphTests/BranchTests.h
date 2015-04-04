@@ -1,0 +1,18 @@
+//
+//  BranchTests.h
+//  PSTTreeGraphTests
+//
+//  Created by Ed Preston on 26/08/11.
+//  Copyright 2011 Preston Software. All rights reserved.
+//
+
+#import <XCTest/XCTest.h>
+
+#import "PSBaseBranchView.h"
+
+@interface BranchTests : XCTestCase
+{
+    PSBaseBranchView* aBranch;
+}
+
+@end

@@ -1,0 +1,10 @@
+PODS:
+  - JSCustomBadge (1.0.1)
+
+DEPENDENCIES:
+  - JSCustomBadge
+
+SPEC CHECKSUMS:
+  JSCustomBadge: a8b5c34addd4becc36d90918ca5837ed2851a59b
+
+COCOAPODS: 0.29.0

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+  <head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title>AKSVideoAndImagePicker for iOS - Cocoa Controls</title>
+<meta name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<link rel="apple-touch-icon" href="/images/iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/images/ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/images/iphone_retina.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/images/ipad_retina.png" />
+<link href='http://feeds.feedburner.com/cocoacontrols' id='auto-discovery' rel='alternate' title='Cocoa Controls - Newest' type='application/atom+xml'>
+<link href="/assets/application-1c338c85e1169baa4ec79aa312538b9c.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="/assets/vendor/custom.modernizr-a7d5258f68c42509cd151b5d3ebb9aa9.js" type="text/javascript"></script>
+<script src="/assets/application-11746d2959e316c8cb6b27610e980a2d.js" type="text/javascript"></script>
+<script async='true' src='https://store.cocoacontrols.com/dynamicscripts/ccstats-1.0.js' type='text/javascript'></script>
+<script src='https://store.cocoacontrols.com/Scripts/ccpolls-1.0.js' type='text/javascript'></script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-90206-53']);
+    _gaq.push(['_setDomainName', '.cocoacontrols.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="4S+kF6ByrCw66hJBVq0Dm2DTcZ4QcDdwzKCXG79yzE0=" name="csrf-token" />
+
+</head>
+
+  <body id='controls_show'>
+    <div class='hero-bar fixed' id='herobar'>
+<button class='hero-bar-close-button close'>&times;</button>
+<div class='row'>
+<div class='small-12 columns'>
+<form class='newsletter_signup_form'>
+<div class='row collapse center'>
+<div class='small-12 large-5 columns'>
+<label class='right inline'>Receive our weekly roundup before it gets posted on the site!&nbsp;</label>
+</div>
+<div class='small-10 large-5 columns'>
+<input id="newsletter_email_address" name="newsletter_email_address" placeholder="Enter your email address" type="text" value="" />
+</div>
+<div class='small-2 large-2 columns'>
+<button autocomplete='off' class='postfix' data-loading-text='One moment...'>Subscribe</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+</div>
+
+    <div class='fixed cc-navigation'>
+<nav class='top-bar'>
+<ul class='title-area'>
+<li class='name'>
+<h1><a href="/">Cocoa Controls</a></h1>
+</li>
+<li class='toggle-topbar menu-icon'>
+<a href="#"><span>Menu</span>
+</a></li>
+</ul>
+<section class='top-bar-section'>
+<ul class='left'>
+<li class='divider'></li>
+<li class='active'><a href="/controls">Controls</a></li>
+<li class='divider'></li>
+<li><a href="/apps">Apps</a></li>
+<li class='divider'></li>
+<li><a href="/authors">Authors</a></li>
+<li class='divider'></li>
+<li><a href="/posts">Blog</a></li>
+<li class='divider'></li>
+<li><a href="/cocoapods">CocoaPods</a></li>
+<li class='divider'></li>
+<li class='has-dropdown'>
+<a href="/about">About</a>
+<ul class='dropdown'>
+<li><a href="/faq">FAQ</a></li>
+</ul>
+</li>
+</ul>
+<ul class='right'>
+<li class='divider hide-for-small'></li>
+<li class='has-button'>
+<a href="#" class="button small primary submit_control_link">Submit Control</a>
+</li>
+<li class='has-form'>
+<form accept-charset="UTF-8" action="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<div class='row collapse'>
+<div class='small-8 columns'>
+<input name='q' placeholder='Search Controls' type='text'>
+</div>
+<div class='small-4 columns'>
+<button class='button'>Search</button>
+</div>
+</div>
+</form>
+
+</li>
+<li class='divider'></li>
+<li class='has-dropdown'>
+<a href="#">Vincent Test</a>
+<ul class='dropdown'>
+<li><a href="/me/controls">Submitted Controls</a></li>
+<li><a href="/me/rated-controls">Rated Controls</a></li>
+<li><a href="/me/favorites">Favorite Controls</a></li>
+<li class='divider'></li>
+<li><a href="/me">Edit Profile</a></li>
+<li class='divider'></li>
+<li><a href="/me/sales">My Sales</a></li>
+<li class='divider'></li>
+<li><a href="/logout">Log Out</a></li>
+</ul>
+</li>
+
+<li class='divider'></li>
+<li><a href="#" class="hero-bar-show-button" title="Show the newsletter signup form">↓</a></li>
+</ul>
+</section>
+</nav>
+</div>
+
+
+
+    <script>
+  //<![CDATA[
+    var _ccsq = _ccsq || [];
+    _ccsq.push(['_trackControlImpression', 2320]);
+  //]]>
+</script>
+
+<script>
+  //<![CDATA[
+    $(function() {
+      _gaq.push(['b._setAccount', 'UA-90206-118'])
+      _gaq.push(['b._trackPageview',"/aryansbtloe/2320"]);
+    });
+  //]]>
+</script>
+
+
+
+
+<div class='row'>
+<div class='small-12 large-9 columns'>
+<h1>AKSVideoAndImagePicker for iOS</h1>
+</div>
+<div class='small-12 large-3 columns top-right-button-container'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<div class='control-toolbar-item-wrapper'>
+<div class='control-rating'>
+<form accept-charset="UTF-8" action="/ratings" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4S+kF6ByrCw66hJBVq0Dm2DTcZ4QcDdwzKCXG79yzE0=" /></div>
+<input id="control_id" name="control_id" type="hidden" value="2320" />
+<label>
+<input id="control_rating_1" name="control_rating" type="radio" value="1" />
+<i class='icon-large' data-rating='1'></i>
+</label>
+<label>
+<input id="control_rating_2" name="control_rating" type="radio" value="2" />
+<i class='icon-large' data-rating='2'></i>
+</label>
+<label>
+<input id="control_rating_3" name="control_rating" type="radio" value="3" />
+<i class='icon-large' data-rating='3'></i>
+</label>
+<label>
+<input id="control_rating_4" name="control_rating" type="radio" value="4" />
+<i class='icon-large' data-rating='4'></i>
+</label>
+<label>
+<input id="control_rating_5" name="control_rating" type="radio" value="5" />
+<i class='icon-large' data-rating='5'></i>
+</label>
+<span class='highlight-count control-ratings-count' data-count='2'>2</span>
+<span class='hint-text'>(click stars to rate)</span>
+</form>
+
+</div>
+<script>
+  //<![CDATA[
+    $(function() {
+      window.configureRatings('.control-rating', 5.0);
+    });
+  //]]>
+</script>
+
+
+</div>
+<div class='control-toolbar-item-wrapper'>
+<div class='favorite-container'>
+<button class='button small favorite-button'>
+<i class='icon-heart'></i>
+<span class='fav-title'></span>
+</button>
+<span class='highlight-count attached'></span>
+</div>
+<script>
+  //<![CDATA[
+    var favorite = null;
+  //]]>
+</script>
+<script>
+  //<![CDATA[
+    $(function() {
+      var control = {"id":2320,"path":"/controls/aksvideoandimagepicker","favorites_path":"/controls/aksvideoandimagepicker/favorites","favorites_count":8};
+      var favorites = new window.Favorites($('.favorite-container'), control, favorite);
+    });
+  //]]>
+</script>
+
+
+</div>
+<div class='control-toolbar-item-wrapper right'>
+<a href="https://github.com/aryansbtloe/AKSVideoAndImagePicker" class="small button primary" id="get_source_link">Download Source</a>
+<span class='highlight-count attached'>
+Unspecified License
+</span>
+<script>
+  //<![CDATA[
+    $(function() {
+      $('#get_source_link').on("click", function() {
+        _gaq.push(['_trackEvent', 'Download', 'GitHub', 'AKSVideoAndImagePicker']);
+        _gaq.push(['_setVar', 'Downloader']);
+        _gaq.push(['_setCustomVar', 1, 'Downloader', true, 1]);
+        _ccsq.push(['_trackSourceLinkClicked', 2320]);
+      });
+    });
+  //]]>
+</script>
+
+</div>
+
+
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='large-4 small-12 columns'>
+<ul class='control-carousel clearing-thumbs clearing-feature' data-clearing='clearing'>
+<li class='clearing-featured-img'>
+<a href="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/1811/iOS_Simulator_Screen_shot_Sep_6__2013_9.png"><img alt="Ios_simulator_screen_shot_sep_6__2013_9" src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/1811/iOS_Simulator_Screen_shot_Sep_6__2013_9.png" /></a>
+<div class='hint-text center'><a href="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/1811/iOS_Simulator_Screen_shot_Sep_6__2013_9.png">View all 2 images</a></div>
+</li>
+<li><a href="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/1731/Screen_Shot_2013-08-27_at_11.33.37_AM.png"><img alt="Screen_shot_2013-08-27_at_11.33.37_am" src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/1731/Screen_Shot_2013-08-27_at_11.33.37_AM.png" /></a></li>
+</ul>
+
+<hr>
+<h5>Author</h5>
+<div class='row'>
+<div class='small-12 large-4 columns'>
+<a href="/authors/aryansbtloe"><img alt="2aed6ef5a4a5cccef2e0b1ec05a468b3" src="https://www.gravatar.com/avatar/2aed6ef5a4a5cccef2e0b1ec05a468b3.jpg?s=80&amp;d=mm" /></a>
+</div>
+<div class='small-12 large-8 columns'>
+<p>
+Alok kumar singh
+<br>
+<a href="/authors/aryansbtloe">More from this Author...</a>
+</p>
+</div>
+</div>
+
+</div>
+<div class='large-8 small-12 columns'>
+<div class='section-container auto' data-section='section'>
+<section>
+<p class='title' data-section_title='section-title'><a href="#panel1">About</a></p>
+<div class='content' data-section_content='section_content'>
+<div class='rendered-description'>
+<p>block based image/video picker with automatic optimisation of video and image for network use.</p>
+</div>
+<div class='row'>
+<div class='small-12 large-6 columns'>
+<p>
+Language:
+<strong>Objective-C</strong>
+</p>
+<h4>Tags</h4>
+<ul class='inline-list'>
+<li>
+<a href="/tags/image"><i class='icon-tag'></i>
+image
+</a></li>
+<li>
+<a href="/tags/video"><i class='icon-tag'></i>
+video
+</a></li>
+<li>
+<a href="/tags/compression"><i class='icon-tag'></i>
+compression
+</a></li>
+<li>
+<a href="/tags/picker"><i class='icon-tag'></i>
+picker
+</a></li>
+<li>
+<a href="/tags/block%20based"><i class='icon-tag'></i>
+block based
+</a></li>
+</ul>
+
+</div>
+<div class='small-12 large-6 columns'>
+<div id='github_info'></div>
+<script>
+  //<![CDATA[
+    $(function() {
+      $.get("/controls/aksvideoandimagepicker/github", function(data) {
+        $('#github_info').html(data);
+      });
+    });
+  //]]>
+</script>
+
+
+</div>
+</div>
+</div>
+</section>
+<section>
+<p class='title' data-section_title='section-title'><a href="#panel3">Apps using this Control</a></p>
+<div class='content' data-section_content='section_content'>
+<p>
+Use this control in your apps? Let us know!
+<a href="#" class="button small" data-reveal-id="i_use_this_modal">I Use This Control!</a>
+</p>
+
+
+</div>
+</section>
+</div>
+
+<p>Found a bug, have a problem? <a href="/faq">Check out the Cocoa Controls FAQ before posting a comment</a>.</p>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'cocoacontrols'; // required: replace example with your forum shortname
+
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    var disqus_identifier = 'Control-aksvideoandimagepicker';
+    var disqus_url = 'https://www.cocoacontrols.com/controls/aksvideoandimagepicker';
+
+    // Track disqus comments in Google Analytics
+    function disqus_config() {
+      this.callbacks.onNewComment = [function() {
+        _gaq.push(['_trackSocial', 'disqus', 'comment']);
+      }];
+    }
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+</div>
+
+
+    <footer>
+<div class='row'>
+<div class='small-12 large-6 columns'>
+<div class='row'>
+<div class='small-1 columns'>
+<i class='icon-twitter icon-2x'></i>
+</div>
+<div class='small-10 columns'>
+<p><a href="http://twitter.com/cocoacontrols" target="_blank">Follow @cocoacontrols on Twitter</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-1 columns'>
+<i class='icon-rss icon-2x'></i>
+</div>
+<div class='small-10 columns'>
+<p><a href="http://feeds.feedburner.com/cocoacontrols">Subscribe to our RSS feed for the latest site news</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-1 columns'>
+<i class='icon-envelope-alt icon-2x'></i>
+</div>
+<div class='small-10 columns'>
+<p>
+Subscribe to our Weekly Roundup email:
+</p>
+<form class='newsletter_signup_form'>
+<input id="newsletter_email_address" name="newsletter_email_address" placeholder="Enter your email address" type="text" value="" />
+<button autocomplete='off' class='btn' data-loading-text='One moment...'>Subscribe</button>
+<div class='newsletter_signup_result'></div>
+</form>
+</div>
+</div>
+</div>
+<div class='small-12 large-6 columns'>
+<p>&copy; 2011-2015 Cocoa Controls. Some third party content, which may be protected by Copyright, reproduced permissively.</p>
+<p><a href="/terms-and-conditions">Terms &amp; Conditions</a> | <a href="/privacy-policy">Privacy Policy</a></p>
+</div>
+</div>
+</footer>
+
+    <form accept-charset="UTF-8" action="/controls/aksvideoandimagepicker/apps" class="modal-return-submit" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4S+kF6ByrCw66hJBVq0Dm2DTcZ4QcDdwzKCXG79yzE0=" /></div>
+<div class='reveal-modal small' id='i_use_this_modal'>
+<a class='close-reveal-modal'>&times;</a>
+<h3>Do you use this control in your app?</h3>
+<p>Let the control author know, and get some more publicity for your app by letting us know!</p>
+<div class='row'>
+<div class='small-2 columns'>
+<label class='right inline' for='app_url'>URL:</label>
+</div>
+<div class='small-10 columns'>
+<input autofocus="autofocus" id="app_url" name="app_url" placeholder="https://itunes.apple.com/us/app/myappname/id123456789" type="text" value="" />
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns align-right'>
+<button class='button'>Go</button>
+</div>
+</div>
+</div>
+</form>
+
+
+    <form accept-charset="UTF-8" action="/controls/new" class="modal-return-submit" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<div class='reveal-modal small' id='new_control_github_modal'>
+<a class='close-reveal-modal'>&times;</a>
+<h3>Is this hosted on GitHub?</h3>
+<p>If this control is hosted on GitHub, paste the address below, otherwise click &quot;Not Hosted on GitHub&quot;.</p>
+<div class='row'>
+<div class='small-3 columns'>
+<label class='right inline' for='github_url'>GitHub URL:</label>
+</div>
+<div class='small-9 columns'>
+<input autofocus="autofocus" id="github_url" name="github_url" type="text" value="" />
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns align-right'>
+<a href="/controls/new" class="button">Not Hosted on GitHub</a>
+<button class='primary'>OK</button>
+</div>
+</div>
+</div>
+</form>
+
+
+  <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","bam.nr-data.net","0cdcfc9bb4","709348","dF1aFkcJDwoASklWC1lGRg1ZFUwVDVcR",18,188,new Date().getTime(),"","","","",""]);</script></body>
+</html>

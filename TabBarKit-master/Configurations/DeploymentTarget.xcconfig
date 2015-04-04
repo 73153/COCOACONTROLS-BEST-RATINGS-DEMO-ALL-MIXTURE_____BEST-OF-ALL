@@ -1,0 +1,6 @@
+
+//
+// DeploymentTarget.xcconfig
+//
+
+IPHONEOS_DEPLOYMENT_TARGET = 6.0

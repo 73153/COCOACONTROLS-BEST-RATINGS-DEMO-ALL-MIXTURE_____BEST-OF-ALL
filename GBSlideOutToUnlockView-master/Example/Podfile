@@ -1,0 +1,8 @@
+use_frameworks!
+
+pod "GBSlideOutToUnlockView", :path => "../"
+
+target 'AcceptanceTests', :exclusive => true do
+  pod 'KIF', '~> 3.0'
+  pod "GBSlideOutToUnlockView", :path => "../"
+end

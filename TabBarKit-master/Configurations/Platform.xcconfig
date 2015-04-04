@@ -1,0 +1,15 @@
+
+//
+// Platform.xcconfig
+//
+// • Always use latest SDK target and do proper checks for existence of symbols, classes, selectors and functions.
+// • Weak linking with frameworks that have newer symbols is also an option but comes at a performance cost.
+//
+
+#include "DeviceUniversal.xcconfig"
+#include "DeploymentTarget.xcconfig"
+
+SDKROOT = iphoneos
+ARCHS = $(ARCHS_STANDARD_32_BIT)
+//ARCHS[sdk=iphoneos*] = armv7
+//VALID_ARCHS[sdk=iphoneos*] = armv7

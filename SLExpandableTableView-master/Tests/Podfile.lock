@@ -1,0 +1,25 @@
+PODS:
+  - Expecta (0.3.1)
+  - KIF (3.0.8):
+    - KIF/XCTest (= 3.0.8)
+  - KIF/XCTest (3.0.8)
+  - OCMock (3.1.1)
+  - SLExpandableTableView (1.2.3)
+
+DEPENDENCIES:
+  - Expecta (~> 0.3.1)
+  - KIF (~> 3.0.8)
+  - OCMock (~> 3.1.1)
+  - SLExpandableTableView (from `..`)
+
+EXTERNAL SOURCES:
+  SLExpandableTableView:
+    :path: ..
+
+SPEC CHECKSUMS:
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  KIF: 2db5e8cf59136dd1267d49cca0d55883389b09d3
+  OCMock: f6cb8c162ab9d5620dddf411282c7b2c0ee78854
+  SLExpandableTableView: 0cd07e3cbfe9a9ad02ec9778c0778f2d5c7527f4
+
+COCOAPODS: 0.35.0

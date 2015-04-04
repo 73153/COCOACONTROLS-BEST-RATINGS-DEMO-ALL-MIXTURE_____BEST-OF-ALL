@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050374DD14953F3A00AC2668 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 050374DC14953F3A00AC2668 /* NSFileManager+DirectoryLocations.m */; };
+		05F24FFB14951B2300C4B5F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F24FFA14951B2300C4B5F3 /* UIKit.framework */; };
+		05F24FFD14951B2300C4B5F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F24FFC14951B2300C4B5F3 /* Foundation.framework */; };
+		05F24FFF14951B2300C4B5F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F24FFE14951B2300C4B5F3 /* CoreGraphics.framework */; };
+		05F2500514951B2300C4B5F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05F2500314951B2300C4B5F3 /* InfoPlist.strings */; };
+		05F2500714951B2300C4B5F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F2500614951B2300C4B5F3 /* main.m */; };
+		05F2500B14951B2300C4B5F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F2500A14951B2300C4B5F3 /* AppDelegate.m */; };
+		05F2501A14951B6E00C4B5F3 /* bg-signature-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F2501214951B6E00C4B5F3 /* bg-signature-landscape.png */; };
+		05F2501B14951B6E00C4B5F3 /* bg-signature-landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F2501314951B6E00C4B5F3 /* bg-signature-landscape@2x.png */; };
+		05F2501C14951B6E00C4B5F3 /* bg-signature-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F2501414951B6E00C4B5F3 /* bg-signature-portrait.png */; };
+		05F2501D14951B6E00C4B5F3 /* bg-signature-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F2501514951B6E00C4B5F3 /* bg-signature-portrait@2x.png */; };
+		05F2501E14951B6E00C4B5F3 /* JBSignatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F2501714951B6E00C4B5F3 /* JBSignatureController.m */; };
+		05F2501F14951B6E00C4B5F3 /* JBSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F2501914951B6E00C4B5F3 /* JBSignatureView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050374DB14953F3A00AC2668 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		050374DC14953F3A00AC2668 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
+		05F24FF614951B2300C4B5F3 /* JBSignatureControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBSignatureControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F24FFA14951B2300C4B5F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05F24FFC14951B2300C4B5F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05F24FFE14951B2300C4B5F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05F2500214951B2300C4B5F3 /* JBSignatureControllerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JBSignatureControllerTest-Info.plist"; sourceTree = "<group>"; };
+		05F2500414951B2300C4B5F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05F2500614951B2300C4B5F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05F2500814951B2300C4B5F3 /* JBSignatureControllerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JBSignatureControllerTest-Prefix.pch"; sourceTree = "<group>"; };
+		05F2500914951B2300C4B5F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05F2500A14951B2300C4B5F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05F2501214951B6E00C4B5F3 /* bg-signature-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-signature-landscape.png"; sourceTree = "<group>"; };
+		05F2501314951B6E00C4B5F3 /* bg-signature-landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-signature-landscape@2x.png"; sourceTree = "<group>"; };
+		05F2501414951B6E00C4B5F3 /* bg-signature-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-signature-portrait.png"; sourceTree = "<group>"; };
+		05F2501514951B6E00C4B5F3 /* bg-signature-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-signature-portrait@2x.png"; sourceTree = "<group>"; };
+		05F2501614951B6E00C4B5F3 /* JBSignatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSignatureController.h; sourceTree = "<group>"; };
+		05F2501714951B6E00C4B5F3 /* JBSignatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSignatureController.m; sourceTree = "<group>"; };
+		05F2501814951B6E00C4B5F3 /* JBSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSignatureView.h; sourceTree = "<group>"; };
+		05F2501914951B6E00C4B5F3 /* JBSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSignatureView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F24FF314951B2300C4B5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F24FFB14951B2300C4B5F3 /* UIKit.framework in Frameworks */,
+				05F24FFD14951B2300C4B5F3 /* Foundation.framework in Frameworks */,
+				05F24FFF14951B2300C4B5F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F24FEB14951B2300C4B5F3 = {
+			isa = PBXGroup;
+			children = (
+				05F2501114951B6E00C4B5F3 /* JSSignatureControllerSource */,
+				05F2500014951B2300C4B5F3 /* JBSignatureControllerTest */,
+				05F24FF914951B2300C4B5F3 /* Frameworks */,
+				05F24FF714951B2300C4B5F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F24FF714951B2300C4B5F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F24FF614951B2300C4B5F3 /* JBSignatureControllerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F24FF914951B2300C4B5F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F24FFA14951B2300C4B5F3 /* UIKit.framework */,
+				05F24FFC14951B2300C4B5F3 /* Foundation.framework */,
+				05F24FFE14951B2300C4B5F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05F2500014951B2300C4B5F3 /* JBSignatureControllerTest */ = {
+			isa = PBXGroup;
+			children = (
+				050374DB14953F3A00AC2668 /* NSFileManager+DirectoryLocations.h */,
+				050374DC14953F3A00AC2668 /* NSFileManager+DirectoryLocations.m */,
+				05F2500914951B2300C4B5F3 /* AppDelegate.h */,
+				05F2500A14951B2300C4B5F3 /* AppDelegate.m */,
+				05F2500114951B2300C4B5F3 /* Supporting Files */,
+			);
+			path = JBSignatureControllerTest;
+			sourceTree = "<group>";
+		};
+		05F2500114951B2300C4B5F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F2500214951B2300C4B5F3 /* JBSignatureControllerTest-Info.plist */,
+				05F2500314951B2300C4B5F3 /* InfoPlist.strings */,
+				05F2500614951B2300C4B5F3 /* main.m */,
+				05F2500814951B2300C4B5F3 /* JBSignatureControllerTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F2501114951B6E00C4B5F3 /* JSSignatureControllerSource */ = {
+			isa = PBXGroup;
+			children = (
+				05F2501214951B6E00C4B5F3 /* bg-signature-landscape.png */,
+				05F2501314951B6E00C4B5F3 /* bg-signature-landscape@2x.png */,
+				05F2501414951B6E00C4B5F3 /* bg-signature-portrait.png */,
+				05F2501514951B6E00C4B5F3 /* bg-signature-portrait@2x.png */,
+				05F2501614951B6E00C4B5F3 /* JBSignatureController.h */,
+				05F2501714951B6E00C4B5F3 /* JBSignatureController.m */,
+				05F2501814951B6E00C4B5F3 /* JBSignatureView.h */,
+				05F2501914951B6E00C4B5F3 /* JBSignatureView.m */,
+			);
+			name = JSSignatureControllerSource;
+			path = ../JSSignatureControllerSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F24FF514951B2300C4B5F3 /* JBSignatureControllerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F2500E14951B2300C4B5F3 /* Build configuration list for PBXNativeTarget "JBSignatureControllerTest" */;
+			buildPhases = (
+				05F24FF214951B2300C4B5F3 /* Sources */,
+				05F24FF314951B2300C4B5F3 /* Frameworks */,
+				05F24FF414951B2300C4B5F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBSignatureControllerTest;
+			productName = JBSignatureControllerTest;
+			productReference = 05F24FF614951B2300C4B5F3 /* JBSignatureControllerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F24FED14951B2300C4B5F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 05F24FF014951B2300C4B5F3 /* Build configuration list for PBXProject "JBSignatureControllerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05F24FEB14951B2300C4B5F3;
+			productRefGroup = 05F24FF714951B2300C4B5F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F24FF514951B2300C4B5F3 /* JBSignatureControllerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F24FF414951B2300C4B5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F2500514951B2300C4B5F3 /* InfoPlist.strings in Resources */,
+				05F2501A14951B6E00C4B5F3 /* bg-signature-landscape.png in Resources */,
+				05F2501B14951B6E00C4B5F3 /* bg-signature-landscape@2x.png in Resources */,
+				05F2501C14951B6E00C4B5F3 /* bg-signature-portrait.png in Resources */,
+				05F2501D14951B6E00C4B5F3 /* bg-signature-portrait@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F24FF214951B2300C4B5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F2500714951B2300C4B5F3 /* main.m in Sources */,
+				05F2500B14951B2300C4B5F3 /* AppDelegate.m in Sources */,
+				05F2501E14951B6E00C4B5F3 /* JBSignatureController.m in Sources */,
+				05F2501F14951B6E00C4B5F3 /* JBSignatureView.m in Sources */,
+				050374DD14953F3A00AC2668 /* NSFileManager+DirectoryLocations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05F2500314951B2300C4B5F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F2500414951B2300C4B5F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F2500C14951B2300C4B5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05F2500D14951B2300C4B5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F2500F14951B2300C4B5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JBSignatureControllerTest/JBSignatureControllerTest-Prefix.pch";
+				INFOPLIST_FILE = "JBSignatureControllerTest/JBSignatureControllerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05F2501014951B2300C4B5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JBSignatureControllerTest/JBSignatureControllerTest-Prefix.pch";
+				INFOPLIST_FILE = "JBSignatureControllerTest/JBSignatureControllerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F24FF014951B2300C4B5F3 /* Build configuration list for PBXProject "JBSignatureControllerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F2500C14951B2300C4B5F3 /* Debug */,
+				05F2500D14951B2300C4B5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F2500E14951B2300C4B5F3 /* Build configuration list for PBXNativeTarget "JBSignatureControllerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F2500F14951B2300C4B5F3 /* Debug */,
+				05F2501014951B2300C4B5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F24FED14951B2300C4B5F3 /* Project object */;
+}

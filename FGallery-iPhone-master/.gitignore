@@ -1,0 +1,32 @@
+FGallery/FGallery.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+FGallery/FGallery.xcodeproj/project.xcworkspace/xcuserdata/grantdavis.xcuserdatad/UserInterfaceState.xcuserstate
+FGallery/FGallery.xcodeproj/xcuserdata/grantdavis.xcuserdatad/xcschemes/FGallery.xcscheme
+FGallery/FGallery.xcodeproj/xcuserdata/grantdavis.xcuserdatad/xcschemes/xcschememanagement.plist
+FGallery/FGallery.xcodeproj/project.xcworkspace/xcuserdata/grantdavis.xcuserdatad/WorkspaceSettings.xcsettings
+
+
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+
+
+#OSX
+.DS_Store
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
